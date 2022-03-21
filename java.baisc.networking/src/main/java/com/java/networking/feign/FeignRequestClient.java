@@ -27,10 +27,9 @@ public interface FeignRequestClient {
     // @Headers({ "Content-Type: application/x-www-form-urlencoded", "Authorization: {Authorization}",
     //   WatchDogManager.WATCH_DOG_INDEX + ": {index}" })
     // @Body("{body}")
-    // CallEndpointResponse callCustomUrlEncodedPost(@Param("uri") String uri,
-    //                                               @Param("Authorization") String authorizationHeader,
-    //                                               @Param("body") String body,
-    //                                               @Param("index") int index) throws CallEndpointException;
+    // CallEndpointResponse callCustomUrlEncodedPost(
+    //   @Param("uri") String uri, @Param("Authorization") String authorizationHeader,
+    //   @Param("body") String body, @Param("index") int index) throws CallEndpointException;
 
     // 在请求的body中传递json数据
     @RequestLine("POST /")
