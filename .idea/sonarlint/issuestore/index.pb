@@ -5,8 +5,6 @@ M
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 ç
 ]java.baisc.networking/src/main/java/com/java/networking/apache/ApacheHttpRequestExecutor.java,6\5\65a705fc498a5a8bdb187726e168114482b81115
-Ñ
-Tjava.baisc.networking/src/main/java/com/java/networking/feign/BaseFeignReactive.java,3\2\32710d1d4595dac854dac78ec0b9b28042749638
 v
 Fjava.basic.others/src/main/java/com/java/others/Lombok/BaseLombok.java,0\2\028e5e4d8c098b0ee7611e76f025bfcaf7fe91ed
 M
@@ -35,3 +33,5 @@ u
 Ejava.basic.others/src/main/java/com/java/others/Json/BaseJackson.java,5\5\55cbe8f961d1d71b7b3842840614292ad6958144
 |
 Ljava.baisc.networking/src/main/java/com/java/networking/jaxrs/BaseJaxRs.java,4\0\40b8b367268df919f8a00227499e0f91fcccc61d
+è
+_java.basic.others/src/main/java/com/java/others/Json/exception/RestServiceErrorDescription.java,f\3\f3a903bd40003d7fd729bb31bb9f5b126a172e7f

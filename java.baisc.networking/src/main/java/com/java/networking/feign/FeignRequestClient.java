@@ -7,7 +7,7 @@ import feign.RequestLine;
 
 public interface FeignRequestClient {
 
-    // 指定配置Content的类型
+    // TODO. 严格来说，这里必须指定@Headers("Content-Type")，即使知道服务端产生的json
     @RequestLine("GET /v1/chaos/rest/fast")
     @Headers("Content-Type: application/json;charset=UTF-8")
     void callChaosFast();
