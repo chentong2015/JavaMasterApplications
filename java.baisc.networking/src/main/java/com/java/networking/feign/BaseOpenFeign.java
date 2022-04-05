@@ -2,6 +2,7 @@ package com.java.networking.feign;
 
 import feign.Feign;
 import feign.Request;
+import feign.Target;
 import feign.jackson.JacksonDecoder;
 import feign.jackson.JacksonEncoder;
 
@@ -31,6 +32,11 @@ public class BaseOpenFeign {
                 .decoder(new JacksonDecoder())
                 .target(FeignRequestClient.class, "https://localhost/demo");
         feignClient.callChaosFast();
+
+        // 使用Target构建，但本质上还是通过Feign.builder()来target
+        Target<FeignRequestClient> clientTarget = new Target.HardCodedTarget<>(FeignRequestClient.class, "https://localhost/");
+        FeignRequestClient client = Feign.builder().target(clientTarget);
+        client.callChaosFast();
     }
 
     public static void testFeignBuilder() {

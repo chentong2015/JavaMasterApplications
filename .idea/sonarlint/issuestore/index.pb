@@ -35,3 +35,7 @@ Ejava.basic.others/src/main/java/com/java/others/Json/BaseJackson.java,5\5\55cb
 Ljava.baisc.networking/src/main/java/com/java/networking/jaxrs/BaseJaxRs.java,4\0\40b8b367268df919f8a00227499e0f91fcccc61d
 è
 _java.basic.others/src/main/java/com/java/others/Json/exception/RestServiceErrorDescription.java,f\3\f3a903bd40003d7fd729bb31bb9f5b126a172e7f
+à
+Xjava.baisc.networking/src/main/java/com/java/networking/apache/BaseApacheHttpClient.java,b\4\b4af95ac861ff287b95b52d5cde1d297aa8b8ee8
+Ö
+Ujava.baisc.networking/src/main/java/com/java/networking/feign/FeignRequestClient.java,f\5\f59e99ac0f08d2e8d6bfcb48d5f7bb5af4f8d3c7
