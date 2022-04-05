@@ -30,6 +30,7 @@ public class BaseOpenFeign {
         FeignRequestClient feignClient = Feign.builder()
                 .encoder(new JacksonEncoder())
                 .decoder(new JacksonDecoder())
+                // .requestInterceptor(RequestInterceptor) 带有默认的拦截器设置
                 .target(FeignRequestClient.class, "https://localhost/demo");
         feignClient.callChaosFast();
 
