@@ -1,6 +1,4 @@
 
-M
-java.baisc.networking/pom.xml,e\5\e5161e2ec54da6f72fdddde8f6aafb7641a09efd
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 ç
@@ -31,11 +29,15 @@ t
 Djava.basic.others/src/main/java/com/java/others/Json/ObjectÂ∫èÂàóÂåñ,7\d\7d760f9db7be666cec31b8dde883f428cc788132
 u
 Ejava.basic.others/src/main/java/com/java/others/Json/BaseJackson.java,5\5\55cbe8f961d1d71b7b3842840614292ad6958144
-|
-Ljava.baisc.networking/src/main/java/com/java/networking/jaxrs/BaseJaxRs.java,4\0\40b8b367268df919f8a00227499e0f91fcccc61d
 è
 _java.basic.others/src/main/java/com/java/others/Json/exception/RestServiceErrorDescription.java,f\3\f3a903bd40003d7fd729bb31bb9f5b126a172e7f
 à
 Xjava.baisc.networking/src/main/java/com/java/networking/apache/BaseApacheHttpClient.java,b\4\b4af95ac861ff287b95b52d5cde1d297aa8b8ee8
 Ö
 Ujava.baisc.networking/src/main/java/com/java/networking/feign/FeignRequestClient.java,f\5\f59e99ac0f08d2e8d6bfcb48d5f7bb5af4f8d3c7
+í
+bjava.baisc.networking/src/main/java/com/java/networking/feign/master/SourceRequestInterceptor.java,0\b\0bdf0f845c673fc1f9ab9f52d7e92fda2da33a0f
+é
+^java.baisc.networking/src/main/java/com/java/networking/feign/master/BaseAsyncFeignClient.java,4\6\46c451eb14ddc976eef8556027320155d349e115
+ã
+[java.baisc.networking/src/main/java/com/java/networking/feign/master/BaseFeignReactive.java,3\7\371c3bcac2a0ddcc525cf0496c780fc4132fd555

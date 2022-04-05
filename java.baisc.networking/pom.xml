@@ -46,5 +46,12 @@
             <artifactId>cxf-rt-rs-client</artifactId>
             <version>3.5.1</version>
         </dependency>
+
+        <!-- Jakarta RESTful Web Services -->
+        <dependency>
+            <groupId>jakarta.ws.rs</groupId>
+            <artifactId>jakarta.ws.rs-api</artifactId>
+            <version>3.0.0</version>
+        </dependency>
     </dependencies>
 </project>

@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 // 3. 直接通过调用方法来执行Http Client请求，减少对请求的自定义配置和封装
 // 4. 提供日志配置
 // 5. 提供Http Client请求的Timeout
-public class BaseOpenFeign {
+public class OpenFeignClientTester {
 
     // 基本使用方式:
     // 1. 定义接口，通过注解来配置请求的模板

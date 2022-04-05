@@ -1,9 +1,9 @@
-package com.java.networking.feign.master;
+package com.java.networking.feign;
 
 import feign.RequestInterceptor;
 import feign.RequestTemplate;
 
-public class SourceRequestInterceptor implements RequestInterceptor {
+public class BaseRequestInterceptor implements RequestInterceptor {
 
     @Override
     public void apply(RequestTemplate requestTemplate) {
