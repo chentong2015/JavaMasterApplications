@@ -33,6 +33,10 @@ public class BaseJaxRs {
         // sseEventSource.register(inboundSseEvent -> handleMessage(inboundSseEvent, onEvent));
         // sseEventSource.register(inboundSseEvent -> handleMessage(inboundSseEvent, onEvent), onError);
         // sseEventSource.register(inboundSseEvent -> handleMessage(inboundSseEvent, onEvent), onError, onComplete);
+
+        // 作为客户端开启连接，接受到来的events
+        // Open the connection to the supplied SSE and start processing incoming Sse Events
+        sseEventSource.open();
     }
 
     public void handleMessage(InboundSseEvent inboundSseEvent) {
