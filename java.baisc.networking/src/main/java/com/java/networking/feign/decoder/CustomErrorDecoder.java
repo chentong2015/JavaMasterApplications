@@ -12,9 +12,10 @@ public class CustomErrorDecoder implements ErrorDecoder {
     @Override
     public Exception decode(String methodKey, Response response) {
         FeignException exception = feign.FeignException.errorStatus(methodKey, response);
+        // 可以从response中获取到到请求的URL
+        String url = response.request().url();
         int status = response.status();
         if (status >= 500) {
-
             return new RetryableException(
                     response.status(),
                     exception.getMessage(),
