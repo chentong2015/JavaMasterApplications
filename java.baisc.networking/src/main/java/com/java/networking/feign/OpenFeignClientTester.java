@@ -4,10 +4,7 @@ import com.java.networking.feign.client.FeignRequestClient;
 import com.java.networking.feign.interceptor.AuthRequestInterceptor;
 import com.java.networking.feign.interceptor.CacheRequestInterceptor;
 import com.java.networking.feign.retryer.MyNativeRetryer;
-import feign.Feign;
-import feign.Request;
-import feign.Retryer;
-import feign.Target;
+import feign.*;
 import feign.httpclient.ApacheHttpClient;
 import feign.jackson.JacksonDecoder;
 import feign.jackson.JacksonEncoder;
@@ -24,13 +21,10 @@ import java.util.concurrent.TimeUnit;
 // 3. 直接通过调用方法来执行Http Client请求，减少对请求的自定义配置和封装
 // 4. 提供日志配置
 // 5. 提供Http Client请求的Timeout
-public class OpenFeignClientTester {
 
-    // 基本使用方式:
-    // 1. 定义接口，通过注解来配置请求的模板
-    // 2. 配置请求的参数和传递的数据(格式)
-    // 3. 自定义接口中的default方法
-    // 4. target()到指定的网址，通过调用接口方法来执行不同的Http请求
+// Use Feign with Spring WebFlux (SSE)
+// https://github.com/playtika/feign-reactive
+public class OpenFeignClientTester {
 
     public static void main(String[] args) {
         FeignRequestClient feignClient = Feign.builder()
@@ -40,7 +34,7 @@ public class OpenFeignClientTester {
                 .retryer(new MyNativeRetryer())  // 添加retryer重连器
                 .requestInterceptor(new AuthRequestInterceptor()) // 添加拦截器设置
                 .requestInterceptor(new CacheRequestInterceptor())// 添加多个拦截器
-                .target(FeignRequestClient.class, "https://localhost/demo");
+                .target(FeignRequestClient.class, "https://localhost/demo"); // 设置target目标的默认url网络路径
         feignClient.callChaosFast();
 
         // 使用Target构建，但本质上还是通过Feign.builder()来target
@@ -64,5 +58,15 @@ public class OpenFeignClientTester {
         Feign.Builder builder = Feign.builder();
         Retryer retryer = new Retryer.Default(100L, TimeUnit.SECONDS.toSeconds(3L), 5);
         builder.retryer(retryer);
+    }
+
+    // TODO. 构建异步的Feign Client
+    public void testAsyncFeignClient() {
+        FeignRequestClient feignRequestClient = AsyncFeign.asyncBuilder()
+                .encoder(new JacksonEncoder())
+                .decoder(new JacksonDecoder())
+                .requestInterceptor(new AuthRequestInterceptor())
+                .target(FeignRequestClient.class, "http://localhost:8082");
+        feignRequestClient.callChaosFast();
     }
 }
