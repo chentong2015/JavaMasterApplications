@@ -1,7 +1,11 @@
 package com.java.networking.feign;
 
+import com.java.networking.feign.client.FeignRequestClient;
+import com.java.networking.feign.interceptor.MyRequestInterceptor;
+import com.java.networking.feign.retryer.MyNativeRetryer;
 import feign.Feign;
 import feign.Request;
+import feign.Retryer;
 import feign.Target;
 import feign.jackson.JacksonDecoder;
 import feign.jackson.JacksonEncoder;
@@ -30,7 +34,8 @@ public class OpenFeignClientTester {
         FeignRequestClient feignClient = Feign.builder()
                 .encoder(new JacksonEncoder())
                 .decoder(new JacksonDecoder())
-                // .requestInterceptor(RequestInterceptor) 带有默认的拦截器设置
+                .retryer(new MyNativeRetryer())  // 添加retryer重连器
+                .requestInterceptor(new MyRequestInterceptor()) // 添加拦截器设置
                 .target(FeignRequestClient.class, "https://localhost/demo");
         feignClient.callChaosFast();
 
@@ -40,13 +45,19 @@ public class OpenFeignClientTester {
         client.callChaosFast();
     }
 
-    public static void testFeignBuilder() {
+    // 使用Option来配置Feign请求的timeout参数
+    public static void testFeignClientTimeout() {
         Feign.Builder builder = Feign.builder();
-        // 可以使用Option来配置Feign请求的timeout参数
-        // 从<feign-core>10.5.0开始引入新的方法
         builder.options(new Request.Options(
                 100, TimeUnit.SECONDS,
                 100, TimeUnit.SECONDS,
                 true));
+    }
+
+    // 使用默认的feign client retryer: 重试间隔时间，重试最大周期，最大尝试次数
+    public static void testFeignDefaultRetryer() {
+        Feign.Builder builder = Feign.builder();
+        Retryer retryer = new Retryer.Default(100L, TimeUnit.SECONDS.toSeconds(3L), 5);
+        builder.retryer(retryer);
     }
 }

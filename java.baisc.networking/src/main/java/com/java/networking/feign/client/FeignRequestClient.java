@@ -1,4 +1,4 @@
-package com.java.networking.feign;
+package com.java.networking.feign.client;
 
 import feign.Body;
 import feign.Headers;
