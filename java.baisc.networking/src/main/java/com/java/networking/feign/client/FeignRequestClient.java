@@ -17,6 +17,10 @@ public interface FeignRequestClient {
     @Headers("Content-Type: application/json;charset=UTF-8")
     void callChaosSlow(@Param("duration") Integer duration);
 
+    @RequestLine("POST /")
+    @Headers("X-Ping: {token}")
+    void post(@Param("token") String token);
+
     // 在Header配置中使用配置参数
     // @RequestLine(value = "POST {uri}")
     // @Headers({ "Content-Type: application/json;charset=UTF-8", WatchDogManager.WATCH_DOG_INDEX + ": {index}" })

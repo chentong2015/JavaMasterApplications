@@ -21,7 +21,7 @@ import java.io.InputStreamReader;
 
 // https://mkyong.com/java/apache-httpclient-examples/
 // https://www.baeldung.com/httpclient-post-http-request
-public class BaseApacheHttpClient {
+public class ApacheHttpClientDemo {
 
     public void testHttpClientsSync() throws IOException {
         CloseableHttpClient httpClient = HttpClients.createDefault();

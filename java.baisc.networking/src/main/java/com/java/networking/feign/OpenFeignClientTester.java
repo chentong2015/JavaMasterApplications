@@ -1,12 +1,14 @@
 package com.java.networking.feign;
 
 import com.java.networking.feign.client.FeignRequestClient;
-import com.java.networking.feign.interceptor.MyRequestInterceptor;
+import com.java.networking.feign.interceptor.AuthRequestInterceptor;
+import com.java.networking.feign.interceptor.CacheRequestInterceptor;
 import com.java.networking.feign.retryer.MyNativeRetryer;
 import feign.Feign;
 import feign.Request;
 import feign.Retryer;
 import feign.Target;
+import feign.httpclient.ApacheHttpClient;
 import feign.jackson.JacksonDecoder;
 import feign.jackson.JacksonEncoder;
 
@@ -32,15 +34,18 @@ public class OpenFeignClientTester {
 
     public static void main(String[] args) {
         FeignRequestClient feignClient = Feign.builder()
-                .encoder(new JacksonEncoder())
+                .client(new ApacheHttpClient())  // 设置选择的Http client
+                .encoder(new JacksonEncoder())   // 编码和解码器的选择
                 .decoder(new JacksonDecoder())
                 .retryer(new MyNativeRetryer())  // 添加retryer重连器
-                .requestInterceptor(new MyRequestInterceptor()) // 添加拦截器设置
+                .requestInterceptor(new AuthRequestInterceptor()) // 添加拦截器设置
+                .requestInterceptor(new CacheRequestInterceptor())// 添加多个拦截器
                 .target(FeignRequestClient.class, "https://localhost/demo");
         feignClient.callChaosFast();
 
         // 使用Target构建，但本质上还是通过Feign.builder()来target
-        Target<FeignRequestClient> clientTarget = new Target.HardCodedTarget<>(FeignRequestClient.class, "https://localhost/");
+        Target<FeignRequestClient> clientTarget = new Target.HardCodedTarget<>(
+                FeignRequestClient.class, "https://localhost/");
         FeignRequestClient client = Feign.builder().target(clientTarget);
         client.callChaosFast();
     }
