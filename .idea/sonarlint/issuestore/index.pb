@@ -7,12 +7,8 @@ Yjava.baisc.networking/src/main/java/com/java/networking/jaxrs/MyClientRequestCo
 Xjava.baisc.networking/src/main/java/com/java/networking/jaxrs/MyClientRequestFilter.java,b\f\bf75510068fd91b5ec2e70f712fdfa3dd5a36a8d
 ñ
 fjava.baisc.networking/src/main/java/com/java/networking/feign/interceptor/CacheRequestInterceptor.java,f\d\fd134e5553275d271a41aee19e79cd65532a6574
-M
-java.baisc.networking/pom.xml,e\5\e5161e2ec54da6f72fdddde8f6aafb7641a09efd
 ç
 ]java.baisc.networking/src/main/java/com/java/networking/apache/ApacheHttpRequestExecutor.java,6\5\65a705fc498a5a8bdb187726e168114482b81115
-ã
-[java.baisc.networking/src/main/java/com/java/networking/apache/ApacheHttpClientRetryer.java,c\2\c2fbad9ef52a013925c63ec705303d34b97943fd
 è
 _java.baisc.networking/src/main/java/com/java/networking/apache/source/HttpClientSourceCode.java,7\9\7987901862f2dd75e715abf908d640607ea27282
 è
