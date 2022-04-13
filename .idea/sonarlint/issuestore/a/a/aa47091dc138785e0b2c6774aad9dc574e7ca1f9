@@ -1,0 +1,14 @@
+
+n
+java:S2975"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(ï«Ý§üÿÿÿÿ
+V	java:S125$"<This block of commented-out lines of code should be removed.(ä‰‘¶ýÿÿÿÿ
+n
+java:S2975R"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(¦‘çáüÿÿÿÿ
+c
+java:S1182R"HUse super.clone() to create and seed the cloned instance to be returned.(¦‘çáüÿÿÿÿ
+n
+java:S2975c"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(¦‘çáüÿÿÿÿ
+c
+java:S1182c"HUse super.clone() to create and seed the cloned instance to be returned.(¦‘çáüÿÿÿÿ
+`
+java:S2184M"ECast one of the operands of this subtraction operation to a "double".(¢ÄöÐýÿÿÿÿ
