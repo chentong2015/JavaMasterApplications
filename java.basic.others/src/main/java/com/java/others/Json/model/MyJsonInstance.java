@@ -8,7 +8,7 @@ public class MyJsonInstance {
     private final String name;
     private final String namespace;
     private MyJsonComponent component;
-    
+
     @JsonCreator
     public MyJsonInstance(@JsonProperty("name") final String name,
                           @JsonProperty("namespace") String namespace,
@@ -21,6 +21,11 @@ public class MyJsonInstance {
     @JsonProperty("name")
     public String getName() {
         return name;
+    }
+
+    // 使用了JsonCreator之后，不能再创建Setter方法
+    public void setName(String name) {
+        // this.name = name;
     }
 
     @JsonProperty("namespace")

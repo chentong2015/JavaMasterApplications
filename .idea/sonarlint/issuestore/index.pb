@@ -37,3 +37,5 @@ I
 ]java.baisc.networking/src/main/java/com/java/networking/feign/decoder/CustomErrorDecoder.java,c\1\c138d364c3d14bee9a9b63d1b10b8b9073ed3072
 Œ
 \java.baisc.networking/src/main/java/com/java/networking/feign/retryer/RetryerSourceCode.java,a\a\aa47091dc138785e0b2c6774aad9dc574e7ca1f9
+‡
+Wjava.baisc.networking/src/main/java/com/java/networking/feign/target/MyFeignTarget.java,9\7\9723c038546ea7f96c8746f686a32c76fa3ae3b1
