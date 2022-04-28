@@ -2,18 +2,40 @@ package com.java.others.Json;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.java.others.Json.model.MyJsonComponent;
-import com.java.others.Json.model.MyJsonInstance;
-import com.java.others.Json.model.Person;
-import com.java.others.Json.model.Student;
+import com.java.others.Json.model.*;
+
+import java.util.List;
 
 public class BaseJackson {
+    
+    public static void main(String[] args) throws JsonProcessingException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        MyInstance instance = new MyInstance("test", List.of("item1", "item2"));
 
-    // output: {"firstName":"Mark", "lastName":"Watney"}
+        // TODO. 这里获取到的list序列是不可修改的 ?
+        List<String> copyServices = instance.getServices();
+        System.out.println(copyServices);
+        // copyServices.remove(1);
+
+        System.out.println(objectMapper.writeValueAsString(instance));
+        System.out.println(copyServices);
+    }
+
+    // Test Json Object conversion
+    public void testJsonObject() throws JsonProcessingException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        MyJsonComponent component = new MyJsonComponent("component name");
+        System.out.println(objectMapper.writeValueAsString(component));
+
+        MyJsonInstance instance = new MyJsonInstance("name", "namespace", component);
+        System.out.println(objectMapper.writeValueAsString(instance.getName()));
+    }
+
     public void testJsonIncludeNotNull() throws JsonProcessingException {
         ObjectMapper mapper = new ObjectMapper();
         Person p = new Person();
         System.out.println(mapper.writeValueAsString(p));
+        // output: {"firstName":"Mark", "lastName":"Watney"}
     }
 
     public void testJsonIgnoreProperties() throws JsonProcessingException {
@@ -27,14 +49,5 @@ public class BaseJackson {
         // student只会解析到它有效的字段
         System.out.println(student.firstName);
         System.out.println(student.lastName);
-    }
-
-    public static void main(String[] args) throws JsonProcessingException {
-        ObjectMapper objectMapper = new ObjectMapper();
-        MyJsonComponent component = new MyJsonComponent("component name");
-        System.out.println(objectMapper.writeValueAsString(component));
-
-        MyJsonInstance instance = new MyJsonInstance("name", "namespace", component);
-        System.out.println(objectMapper.writeValueAsString(instance.getName()));
     }
 }
