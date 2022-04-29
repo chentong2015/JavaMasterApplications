@@ -51,3 +51,11 @@ M
 _java.baisc.networking/src/main/java/com/java/networking/apache/ApacheHttpClientBuilderDemo.java,7\1\7163056fbcaad2eb87fa937e57c14125c4dfe67a
 ˆ
 Xjava.baisc.networking/src/main/java/com/java/networking/apache/ApacheHttpClientDemo.java,d\8\d834109272204d0e57957b3d7914a853c6487a54
+
+Ojava.basic.others/src/main/java/com/java/others/Json/model/MyJsonComponent.java,8\a\8aa34c83bbcf914261ce14711161d0d5c1998f46
+w
+Gjava.basic.others/src/main/java/com/java/others/Json/model/Student.java,f\f\ff0192ad4b68d519c188801ea4482fbfdd93085a
+v
+Fjava.basic.others/src/main/java/com/java/others/Json/model/Person.java,1\f\1fee07944259d3499a870de4188d059628deb3af
+~
+Njava.basic.others/src/main/java/com/java/others/Json/model/MyJsonInstance.java,f\6\f690da7a449151c40ef2746b11d4c6916435deb4
