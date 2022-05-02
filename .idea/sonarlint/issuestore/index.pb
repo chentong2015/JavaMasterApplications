@@ -5,14 +5,10 @@ Ljava.baisc.networking/src/main/java/com/java/networking/jaxrs/BaseJaxRs.java,4
 Yjava.baisc.networking/src/main/java/com/java/networking/jaxrs/MyClientRequestContext.java,5\2\52dc8a0ed275cf47edba8e4dc0fad33ad308aa06
 à
 Xjava.baisc.networking/src/main/java/com/java/networking/jaxrs/MyClientRequestFilter.java,b\f\bf75510068fd91b5ec2e70f712fdfa3dd5a36a8d
-ñ
-fjava.baisc.networking/src/main/java/com/java/networking/feign/interceptor/CacheRequestInterceptor.java,f\d\fd134e5553275d271a41aee19e79cd65532a6574
 ç
 ]java.baisc.networking/src/main/java/com/java/networking/apache/ApacheHttpRequestExecutor.java,6\5\65a705fc498a5a8bdb187726e168114482b81115
 è
 _java.baisc.networking/src/main/java/com/java/networking/apache/source/HttpClientSourceCode.java,7\9\7987901862f2dd75e715abf908d640607ea27282
-ï
-ejava.baisc.networking/src/main/java/com/java/networking/feign/interceptor/AuthRequestInterceptor.java,d\0\d076beb9b3a1f5df641620fd2b664141ef3047b7
 ì
 cjava.baisc.networking/src/main/java/com/java/networking/feign/target/client/AbsolutePathClient.java,7\9\797bd4bcaeafb84822ed434697a307a2db16214c
 í
@@ -59,3 +55,7 @@ v
 Fjava.basic.others/src/main/java/com/java/others/Json/model/Person.java,1\f\1fee07944259d3499a870de4188d059628deb3af
 ~
 Njava.basic.others/src/main/java/com/java/others/Json/model/MyJsonInstance.java,f\6\f690da7a449151c40ef2746b11d4c6916435deb4
+u
+Ejava.basic.others/src/main/java/com/java/others/Json/BaseJackson.java,5\5\55cbe8f961d1d71b7b3842840614292ad6958144
+z
+Jjava.basic.others/src/main/java/com/java/others/Json/model/MyInstance.java,6\3\63a23a610a8245560f60e28c952c591b7480dadc

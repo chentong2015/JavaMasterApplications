@@ -13,12 +13,13 @@ public class AuthRequestInterceptor implements RequestInterceptor {
         String token = getAuthorizationToken();
         if (!token.isEmpty()) {
             if (!requestTemplate.headers().containsKey(HttpHeaders.AUTHORIZATION)) {
+                requestTemplate.header(HttpHeaders.AUTHORIZATION);
                 requestTemplate.header(HttpHeaders.AUTHORIZATION, "Bearer " + token);
             }
         }
     }
 
     private String getAuthorizationToken() {
-        return "xxxxx";
+        return "my token";
     }
 }
