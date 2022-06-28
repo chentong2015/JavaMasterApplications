@@ -46,5 +46,19 @@
             <version>1.18.22</version>
             <scope>provided</scope>
         </dependency>
+
+        <!-- Java Object binding to XML: 一个是API, 一个是具体的实现 -->
+        <dependency>
+            <groupId>jakarta.xml.bind</groupId>
+            <artifactId>jakarta.xml.bind-api</artifactId>
+            <version>3.0.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-impl</artifactId>
+            <version>3.0.0</version>
+            <scope>runtime</scope>
+        </dependency>
     </dependencies>
 </project>
