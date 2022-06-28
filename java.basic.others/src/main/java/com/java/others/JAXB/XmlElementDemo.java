@@ -12,9 +12,12 @@ public class XmlElementDemo {
     @XmlElement(required = true)
     private String name;
 
+    // 指定xml的子标签
+    @XmlElement(name = "fromPath")
+    private String path;
+
     // JAXB必须提供无参构造器
     public XmlElementDemo() {
-
     }
 
     public XmlElementDemo(String name) {

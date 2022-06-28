@@ -24,8 +24,10 @@ public class BaseJaxbContext {
             Marshaller marshaller = context.createMarshaller();
 
             marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
-            Person p = new Person("chen", "victor");
-            marshaller.marshal(p, System.out);
+            Person person = new Person("chen", "victor");
+
+            // 第二个参数是要输出的outputStream
+            marshaller.marshal(person, System.out);
         } catch (JAXBException ex) {
             ex.printStackTrace();
         }

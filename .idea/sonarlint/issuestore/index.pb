@@ -39,8 +39,6 @@ Jjava.basic.others/src/main/java/com/java/others/Json/model/MyInstance.java,6\3
 fjava.baisc.networking/src/main/java/com/java/networking/feign/interceptor/CacheRequestInterceptor.java,f\d\fd134e5553275d271a41aee19e79cd65532a6574
 •
 ejava.baisc.networking/src/main/java/com/java/networking/feign/interceptor/AuthRequestInterceptor.java,d\0\d076beb9b3a1f5df641620fd2b664141ef3047b7
-d
-4java.basic.others/src/main/java/base/model/User.java,9\6\9657116fd5e34275b10ac68e57302ec00779598d
 ‹
 [java.baisc.networking/src/main/java/com/java/networking/feign/target/MyFeignTargetDemo.java,3\c\3cd0c8a6d45b09d34ddba6b8c45b984b41c244b4
 €
@@ -73,3 +71,9 @@ _java.basic.others/src/main/java/com/java/others/Json/exception/RestServiceError
 Ojava.basic.others/src/main/java/com/java/others/Json/BaseJacksonMapperTree.java,c\5\c5cb79a5a7783991e51e910d16f317e974885dc0
 u
 Ejava.basic.others/src/main/java/com/java/others/Json/BaseJackson.java,5\5\55cbe8f961d1d71b7b3842840614292ad6958144
+s
+Cjava.basic.others/src/main/java/com/java/others/SMTP/BaseEmail.java,0\3\0338b114b056ef22df270b88d9cca089e0ef5623
+I
+java.basic.others/pom.xml,6\9\69b43eb83ddaa6bf05a0a34f0d2ed999ab72fbce
+p
+@java.basic.others/src/main/java/com/java/others/JAXB/Person.java,b\3\b3df3748747c8f04ba63cca57aec6be866ab9d64
