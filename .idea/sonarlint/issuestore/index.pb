@@ -77,3 +77,7 @@ I
 java.basic.others/pom.xml,6\9\69b43eb83ddaa6bf05a0a34f0d2ed999ab72fbce
 p
 @java.basic.others/src/main/java/com/java/others/JAXB/Person.java,b\3\b3df3748747c8f04ba63cca57aec6be866ab9d64
+d
+4java.basic.others/src/main/java/base/model/User.java,9\6\9657116fd5e34275b10ac68e57302ec00779598d
+x
+Hjava.basic.others/src/main/java/com/java/others/JAXB/XmlElementDemo.java,2\1\214fbd85ee20080f572f4918e6f6b8dc9049273c
