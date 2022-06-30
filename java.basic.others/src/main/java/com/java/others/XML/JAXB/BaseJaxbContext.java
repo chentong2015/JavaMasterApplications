@@ -11,7 +11,8 @@ import javax.xml.stream.XMLStreamReader;
 import java.io.ByteArrayInputStream;
 
 // JAXB: Java Architecture for XML Binding
-// 在Java Objects和XML files之间进行转换
+// 1. 在Java Objects和XML files之间进行转换
+// 2. Hibernate源码中也引用了该dependency
 public class BaseJaxbContext {
 
     // marshal: 将Java Object编组成指定的document xml文件
