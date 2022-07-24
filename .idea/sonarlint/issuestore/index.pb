@@ -81,3 +81,11 @@ v
 Fjava.basic.others/src/main/java/com/java/others/Excel/POI/BasePOI.java,a\1\a1b9b44f24e26704211c37c2014bef19b6428182
 {
 Kjava.basic.others/src/main/java/com/java/others/Pojo/Lombok/BaseLombok.java,3\c\3c10d9075af89258c60b4f8a803470feac95b647
+|
+Ljava.basic.others/src/main/java/com/java/others/XML/JAXB/XmlElementDemo.java,d\8\d89f73ebd2c56dbca9f8047d61759392efe7fa6a
+w
+Gjava.basic.others/src/main/java/com/java/others/XML/JCabi/XML/JCabi XML,0\0\0004e62a2ab93c9c1014e25f2340d9812c529baa
+}
+Mjava.basic.others/src/main/java/com/java/others/XML/JAXB/BaseJaxbContext.java,d\c\dcdb5847baca81fc6b72d7ad295f5fa154543037
+€
+Pjava.basic.others/src/main/java/com/java/others/XML/w3c/dom/W3cDocumentDemo.java,d\7\d7462d8d2869a6b52ca8c626e7f322ab7733b86b
