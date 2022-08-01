@@ -1,6 +1,4 @@
 
-|
-Ljava.baisc.networking/src/main/java/com/java/networking/jaxrs/BaseJaxRs.java,4\0\40b8b367268df919f8a00227499e0f91fcccc61d
 â
 Yjava.baisc.networking/src/main/java/com/java/networking/jaxrs/MyClientRequestContext.java,5\2\52dc8a0ed275cf47edba8e4dc0fad33ad308aa06
 à
@@ -43,14 +41,10 @@ ejava.baisc.networking/src/main/java/com/java/networking/feign/interceptor/AuthR
 [java.baisc.networking/src/main/java/com/java/networking/feign/target/MyFeignTargetDemo.java,3\c\3cd0c8a6d45b09d34ddba6b8c45b984b41c244b4
 Ä
 Pjava.basic.others/src/main/java/com/java/others/CommonIO/BaseApacheCommonIO.java,1\5\152cdf55c9d63dd52ecab11fae1b586111083084
-å
-\java.baisc.networking/src/main/java/com/java/networking/feign/client/FeignRequestClient.java,0\8\085698549be47d16f0de50eeb43e40afae52e2e0
 á
 Wjava.baisc.networking/src/main/java/com/java/networking/feign/target/MyFeignTarget.java,9\7\9723c038546ea7f96c8746f686a32c76fa3ae3b1
 Å
 Qjava.baisc.networking/src/main/java/com/java/networking/feign/MyFeignBuilder.java,b\c\bc3fc56d598bceea66ffee1a00b58326d8088d1b
-à
-Xjava.baisc.networking/src/main/java/com/java/networking/feign/OpenFeignClientTester.java,e\7\e701e722a18ad36b0e6f74fde6849a234e7cde7d
 ä
 Zjava.baisc.networking/src/main/java/com/java/networking/feign/retryer/MyNativeRetryer.java,0\d\0d62fbef7998b46535b0e9832a1d2ad4af7b9f74
 é
@@ -59,8 +53,6 @@ Zjava.baisc.networking/src/main/java/com/java/networking/feign/retryer/MyNativeR
 Ujava.basic.monitoring/src/main/java/com/metrics/healthchecks/MetricsHealthChecks.java,7\7\77b50090d02928cba74fbe4d146a38e11b34b3f6
 t
 Djava.basic.others/src/main/java/com/java/others/Json/ObjectÂ∫èÂàóÂåñ,7\d\7d760f9db7be666cec31b8dde883f428cc788132
-q
-Ajava.baisc.networking/src/main/java/com/java/rmi/BaseJavaRMI.java,2\9\297e3e260fb7905cfbec08f857c0e246749ed368
 ~
 Njava.basic.others/src/main/java/com/java/others/Json/model/MyJsonInstance.java,f\6\f690da7a449151c40ef2746b11d4c6916435deb4
 
@@ -89,3 +81,7 @@ Gjava.basic.others/src/main/java/com/java/others/XML/JCabi/XML/JCabi XML,0\0\00
 Mjava.basic.others/src/main/java/com/java/others/XML/JAXB/BaseJaxbContext.java,d\c\dcdb5847baca81fc6b72d7ad295f5fa154543037
 Ä
 Pjava.basic.others/src/main/java/com/java/others/XML/w3c/dom/W3cDocumentDemo.java,d\7\d7462d8d2869a6b52ca8c626e7f322ab7733b86b
+I
+java.basic.others/pom.xml,6\9\69b43eb83ddaa6bf05a0a34f0d2ed999ab72fbce
+â
+Yjava.basic.others/src/main/java/com/java/others/Schedule/trigger/BaseScheduleTrigger.java,9\e\9ee34f1b0d5fec36940ff18d91e73099190b2964
