@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="java.basic.reflections" />
-        <module name="java.basic.monitoring" />
         <module name="java.basic.others" />
+        <module name="java.basic.monitoring" />
       </profile>
       <profile name="Annotation profile for JavaMasterApplications" enabled="true">
         <sourceOutputDir name="../java.baisc.networking/target/generated-sources/annotations" />

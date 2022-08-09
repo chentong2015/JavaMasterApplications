@@ -5,8 +5,13 @@ import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
-@XmlAccessorType(XmlAccessType.NONE)
+// 匹配xml文件中指定的标签: 可将xml文件中信息映射到该对象Object
+// <staticData>
+//   <fromPath>xxx.path</fromPath>
+//   ....
+// </staticData>
 @XmlRootElement(name = "staticData")
+@XmlAccessorType(XmlAccessType.NONE)
 public class XmlElementDemo {
 
     @XmlElement(required = true)

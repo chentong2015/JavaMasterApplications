@@ -1,8 +1,6 @@
 
 Å
 Qjava.basic.others/src/main/java/com/java/others/CommonIO/GoolgeGuavaCoreJava.java,3\1\319a54d9255ed9f05c2696dd07cb9ec574ac2a2e
-M
-java.baisc.networking/pom.xml,e\5\e5161e2ec54da6f72fdddde8f6aafb7641a09efd
 w
 Gjava.basic.others/src/main/java/com/java/others/Json/model/Student.java,f\f\ff0192ad4b68d519c188801ea4482fbfdd93085a
 v
@@ -43,9 +41,11 @@ Gjava.basic.others/src/main/java/com/java/others/XML/JCabi/XML/JCabi XML,0\0\00
 Pjava.basic.others/src/main/java/com/java/others/XML/w3c/dom/W3cDocumentDemo.java,d\7\d7462d8d2869a6b52ca8c626e7f322ab7733b86b
 â
 Yjava.basic.others/src/main/java/com/java/others/Schedule/trigger/BaseScheduleTrigger.java,9\e\9ee34f1b0d5fec36940ff18d91e73099190b2964
-t
-Djava.baisc.networking/src/main/java/feign/OpenFeignClientTester.java,9\5\953c8f19f46562d7a12bb961fa7c8b3497517a72
-v
-Fjava.baisc.networking/src/main/java/jax/restful/service/BaseJaxRs.java,6\e\6ee7000359609beff0dad9f0dbb269667a57748d
+N
+java.basic.reflections/pom.xml,d\0\d062fc8e88847608ebffb58e6a123ce8c711dbf8
 x
-Hjava.baisc.networking/src/main/java/feign/client/FeignRequestClient.java,f\0\f047bd0f1cc4cf0803fefd7573bb45ff466853f5
+Hjava.basic.reflections/src/main/java/com/example/main/model/Project.java,2\0\20b91bb4c8338dca14d79a76cb0700a2c4f55f5b
+{
+Kjava.basic.reflections/src/main/java/com/example/main/model/SubProject.java,0\8\080c8599c3822730a9ca1e91e8b77d132e2b2a02
+z
+Jjava.basic.reflections/src/main/java/com/example/main/MainReflections.java,b\f\bfc12166ec115af18d9e696daef5d1a55249f102
