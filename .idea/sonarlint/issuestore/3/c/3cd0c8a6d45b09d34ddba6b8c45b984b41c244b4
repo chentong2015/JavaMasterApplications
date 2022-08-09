@@ -1,25 +1,0 @@
-
-Q
-java:S1854 ";Remove this useless assignment to local variable "target5".(Ïƒ¤Û
-Q
-java:S1854";Remove this useless assignment to local variable "target4".(¸Ù£ç
-V
-java:S1854";Remove this useless assignment to local variable "target3".(‚¦Ë…ûÿÿÿÿ
-S
-java:S1854"=Remove this useless assignment to local variable "apiClient".(ßüêÕ
-V
-java:S1854";Remove this useless assignment to local variable "target1".(ÃŞ¼áıÿÿÿÿ
-G
-java:S1481",Remove this unused "target1" local variable.(ÃŞ¼áıÿÿÿÿ
-D
-java:S1481".Remove this unused "apiClient" local variable.(ßüêÕ
-G
-java:S1481",Remove this unused "target3" local variable.(‚¦Ë…ûÿÿÿÿ
-B
-java:S1481",Remove this unused "target4" local variable.(¸Ù£ç
-B
-java:S1481 ",Remove this unused "target5" local variable.(Ïƒ¤Û
-A
-java:S1172%"+Remove this unused method parameter "name".(ê×šÀ
-O
-java:S1135$"2Complete the task associated to this TODO comment.(ã—¨8 ášœ‚0

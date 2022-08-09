@@ -47,7 +47,7 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- Java Object binding to XML: 一个是API, 一个是具体的实现 -->
+        <!-- Java Object binding to XML: 一个API & 一个具体实现 -->
         <dependency>
             <groupId>jakarta.xml.bind</groupId>
             <artifactId>jakarta.xml.bind-api</artifactId>
@@ -60,6 +60,7 @@
             <version>3.0.0</version>
             <scope>runtime</scope>
         </dependency>
+
 
         <dependency>
             <groupId>com.jcabi</groupId>
