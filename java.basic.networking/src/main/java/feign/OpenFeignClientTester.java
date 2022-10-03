@@ -1,6 +1,7 @@
 package feign;
 
 import feign.client.FeignRequestClient;
+import feign.client.NullResponseFeignClient;
 import feign.httpclient.ApacheHttpClient;
 import feign.interceptor.AuthRequestInterceptor;
 import feign.interceptor.CacheRequestInterceptor;
@@ -8,6 +9,7 @@ import feign.jackson.JacksonDecoder;
 import feign.jackson.JacksonEncoder;
 import feign.retryer.MyNativeRetryer;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 // TODO: https://github.com/OpenFeign/feign
@@ -26,6 +28,20 @@ import java.util.concurrent.TimeUnit;
 public class OpenFeignClientTester {
 
     public static void main(String[] args) {
+        Target<NullResponseFeignClient> target = new Target.HardCodedTarget<>(NullResponseFeignClient.class, "http://localhost:8080/");
+        NullResponseFeignClient client = Feign.builder()
+                .encoder(new JacksonEncoder())
+                .decoder(new JacksonDecoder()) // 必须添加解码器来解析返回的json数据
+                .target(target);
+        List<String> result = client.getInformation();
+        if (result == null) {
+            System.out.println("response null"); // 请求的结果有可能返回为null
+        } else {
+            System.out.println("result ok");
+        }
+    }
+
+    public void testFeignBuilder() {
         FeignRequestClient feignClient = Feign.builder()
                 .client(new ApacheHttpClient())  // 设置选择的Http client
                 .encoder(new JacksonEncoder())   // 编码和解码器的选择
@@ -37,8 +53,7 @@ public class OpenFeignClientTester {
         feignClient.callChaosFast();
 
         // 使用Target构建，但本质上还是通过Feign.builder()来target
-        Target<FeignRequestClient> clientTarget = new Target.HardCodedTarget<>(
-                FeignRequestClient.class, "https://localhost/");
+        Target<FeignRequestClient> clientTarget = new Target.HardCodedTarget<>(FeignRequestClient.class, "https://localhost/");
         FeignRequestClient client = Feign.builder().target(clientTarget);
         client.callChaosFast();
     }
