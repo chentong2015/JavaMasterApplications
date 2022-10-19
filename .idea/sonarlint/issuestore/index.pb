@@ -7,8 +7,6 @@ v
 Fjava.basic.others/src/main/java/com/java/others/Json/model/Person.java,1\f\1fee07944259d3499a870de4188d059628deb3af
 z
 Jjava.basic.others/src/main/java/com/java/others/Json/model/MyInstance.java,6\3\63a23a610a8245560f60e28c952c591b7480dadc
-€
-Pjava.basic.others/src/main/java/com/java/others/CommonIO/BaseApacheCommonIO.java,1\5\152cdf55c9d63dd52ecab11fae1b586111083084
 Ž
 ^java.basic.monitoring/src/main/java/com/metrics/healthchecks/process/CpuMetricCollections.java,9\4\947e7fbbc392f177c390d30e89513d9e0a12f0b8
 …
@@ -67,3 +65,9 @@ Jjava.basic.reflections/src/main/java/com/example/main/MainReflections.java,b\f
 Sjava.basic.networking/src/main/java/jax/restful/service/MyClientRequestContext.java,3\2\32f9db43444a33c21c8a93b200b55f8d66662e15
 ‚
 Rjava.basic.networking/src/main/java/jax/restful/service/MyClientRequestFilter.java,a\8\a85495a4dc850b034950c5cf74b1de86aa0e0275
+v
+Fjava.basic.networking/src/main/java/jax/restful/service/BaseJaxRs.java,9\d\9ddd658e51d0331b71c7d19c93c86e2dcbae6e75
+m
+=java.basic.networking/src/main/java/feign/MyFeignBuilder.java,9\6\96b04dbdf3ebac6cbba01a5ef0c9000247a18afe
+x
+Hjava.basic.networking/src/main/java/feign/client/FeignRequestClient.java,1\6\16223baa0f1aec48268b2ed9cbe01672fb9b658a
