@@ -53,12 +53,6 @@ t
 Djava.basic.networking/src/main/java/apache/ApacheHttpClientDemo.java,0\8\0850161f273c8a89176c7a63667c876ab4175be9
 z
 Jjava.basic.reflections/src/main/java/com/example/main/MainReflections.java,b\f\bfc12166ec115af18d9e696daef5d1a55249f102
-É
-Sjava.basic.networking/src/main/java/jax/restful/service/MyClientRequestContext.java,3\2\32f9db43444a33c21c8a93b200b55f8d66662e15
-Ç
-Rjava.basic.networking/src/main/java/jax/restful/service/MyClientRequestFilter.java,a\8\a85495a4dc850b034950c5cf74b1de86aa0e0275
-v
-Fjava.basic.networking/src/main/java/jax/restful/service/BaseJaxRs.java,9\d\9ddd658e51d0331b71c7d19c93c86e2dcbae6e75
 m
 =java.basic.networking/src/main/java/feign/MyFeignBuilder.java,9\6\96b04dbdf3ebac6cbba01a5ef0c9000247a18afe
 x
@@ -77,3 +71,7 @@ Ejava.basic.others/src/main/java/com/java/others/Json/BaseJackson.java,5\5\55cb
 Ojava.basic.others/src/main/java/com/java/others/Json/BaseJacksonMapperTree.java,c\5\c5cb79a5a7783991e51e910d16f317e974885dc0
 Ä
 Pjava.basic.others/src/main/java/com/java/others/CommonIO/BaseApacheCommonIO.java,1\5\152cdf55c9d63dd52ecab11fae1b586111083084
+y
+Ijava.basic.networking/src/main/java/dropwizard/Dropwizard WebÂêéÁ´ØÊ°ÜÊû∂,1\5\15e8e9033f5c019176a4ad637522b64c3092a729
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec

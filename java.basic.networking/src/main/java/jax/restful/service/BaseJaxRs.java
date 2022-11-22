@@ -8,12 +8,11 @@ import jakarta.ws.rs.sse.SseEventSource;
 
 import java.util.concurrent.TimeUnit;
 
-// TODO. JAX-RS: javax restful web service
-//       提供后端API的实现, 同时包含Client API
+// TODO. JAX-RS: javax restful web service 后端API框架, 同时包含Client API
 // https://gayerie.dev/epsi-poe-201703/javaee/11_jaxrs.html
 // https://github.com/jakartaee/rest  jakarta.ws.rs
 
-// TODO. JAX-RS bug的地方 ?
+// TODO. JAX-RS bug ?
 // JAX-RS Spec mandates that when the connection is lost, the reconnect MUST occur.
 // But it is not possible to recognize when the connection is lost and when closed.
 // This leads the JAX-RS client to re-connect whenever the server completes sending events !!
