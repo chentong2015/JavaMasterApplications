@@ -11,11 +11,9 @@
         <module name="java.basic.monitoring" />
         <module name="java.basic.others" />
       </profile>
-      <profile name="Annotation profile for JavaMasterApplications" enabled="true">
-        <sourceOutputDir name="../java.baisc.networking/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../java.baisc.networking/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java.web.services" target="15" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -11,18 +11,12 @@ Jjava.basic.others/src/main/java/com/java/others/Json/model/MyInstance.java,6\3
 ^java.basic.monitoring/src/main/java/com/metrics/healthchecks/process/CpuMetricCollections.java,9\4\947e7fbbc392f177c390d30e89513d9e0a12f0b8
 �
 Ujava.basic.monitoring/src/main/java/com/metrics/healthchecks/MetricsHealthChecks.java,7\7\77b50090d02928cba74fbe4d146a38e11b34b3f6
-t
-Djava.basic.others/src/main/java/com/java/others/Json/Object序列化,7\d\7d760f9db7be666cec31b8dde883f428cc788132
 ~
 Njava.basic.others/src/main/java/com/java/others/Json/model/MyJsonInstance.java,f\6\f690da7a449151c40ef2746b11d4c6916435deb4
 
 Ojava.basic.others/src/main/java/com/java/others/Json/model/MyJsonComponent.java,8\a\8aa34c83bbcf914261ce14711161d0d5c1998f46
 �
 _java.basic.others/src/main/java/com/java/others/Json/exception/RestServiceErrorDescription.java,f\3\f3a903bd40003d7fd729bb31bb9f5b126a172e7f
-
-Ojava.basic.others/src/main/java/com/java/others/Json/BaseJacksonMapperTree.java,c\5\c5cb79a5a7783991e51e910d16f317e974885dc0
-u
-Ejava.basic.others/src/main/java/com/java/others/Json/BaseJackson.java,5\5\55cbe8f961d1d71b7b3842840614292ad6958144
 s
 Cjava.basic.others/src/main/java/com/java/others/SMTP/BaseEmail.java,0\3\0338b114b056ef22df270b88d9cca089e0ef5623
 d
@@ -55,8 +49,6 @@ Rjava.basic.others/src/main/java/com/java/others/XML/JAXB/model/XmlElementDemo.j
 Mjava.basic.others/src/main/java/com/java/others/XML/JAXB/BaseJaxbContext.java,d\c\dcdb5847baca81fc6b72d7ad295f5fa154543037
 I
 java.basic.others/pom.xml,6\9\69b43eb83ddaa6bf05a0a34f0d2ed999ab72fbce
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 t
 Djava.basic.networking/src/main/java/apache/ApacheHttpClientDemo.java,0\8\0850161f273c8a89176c7a63667c876ab4175be9
 z
@@ -71,3 +63,17 @@ m
 =java.basic.networking/src/main/java/feign/MyFeignBuilder.java,9\6\96b04dbdf3ebac6cbba01a5ef0c9000247a18afe
 x
 Hjava.basic.networking/src/main/java/feign/client/FeignRequestClient.java,1\6\16223baa0f1aec48268b2ed9cbe01672fb9b658a
+v
+Fjava.basic.others/src/main/java/com/java/others/ant/Apache Ant Library,f\4\f499fc099767506945641c17964bdd67600d4e07
+}
+Mjava.basic.networking/src/main/java/feign/client/NullResponseFeignClient.java,1\8\1846f4667f2d5d7fd35525006c538a97fcbd3ab2
+t
+Djava.basic.networking/src/main/java/feign/OpenFeignClientTester.java,c\1\c1d71146f9d67577fe4beab368c52ec4b9645930
+t
+Djava.basic.others/src/main/java/com/java/others/Json/Object序列化,7\d\7d760f9db7be666cec31b8dde883f428cc788132
+u
+Ejava.basic.others/src/main/java/com/java/others/Json/BaseJackson.java,5\5\55cbe8f961d1d71b7b3842840614292ad6958144
+
+Ojava.basic.others/src/main/java/com/java/others/Json/BaseJacksonMapperTree.java,c\5\c5cb79a5a7783991e51e910d16f317e974885dc0
+�
+Pjava.basic.others/src/main/java/com/java/others/CommonIO/BaseApacheCommonIO.java,1\5\152cdf55c9d63dd52ecab11fae1b586111083084
