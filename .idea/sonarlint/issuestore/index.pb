@@ -75,3 +75,13 @@ y
 Ijava.basic.networking/src/main/java/dropwizard/Dropwizard Web后端框架,1\5\15e8e9033f5c019176a4ad637522b64c3092a729
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+�
+Rjava.basic.networking/src/main/java/jax/restful/service/MyClientRequestFilter.java,a\8\a85495a4dc850b034950c5cf74b1de86aa0e0275
+x
+Hjava.basic.networking/src/main/java/jax/restful/service/JAX-RS 客户端,c\8\c85c6b42b56a04eb0e0e03c4af981036a4fa98fa
+�
+Sjava.basic.networking/src/main/java/jax/restful/service/MyClientRequestContext.java,3\2\32f9db43444a33c21c8a93b200b55f8d66662e15
+�
+Rjava.basic.networking/src/main/java/jax/restful/service/NotificationsResource.java,e\b\ebda1e93bc5f87ff8e8de74f1d857e214efec741
+
+Ojava.basic.networking/src/main/java/jax/restful/service/JaxRestServiceDemo.java,6\c\6c1a735e8817b3488afde8ebdb34fccfb1f41307
