@@ -1,7 +1,6 @@
-package feign;
+package feign.client;
 
-import feign.client.FeignRequestClient;
-import feign.client.NullResponseFeignClient;
+import feign.*;
 import feign.httpclient.ApacheHttpClient;
 import feign.interceptor.AuthRequestInterceptor;
 import feign.interceptor.CacheRequestInterceptor;

@@ -1,5 +1,8 @@
-package feign;
+package feign.builder;
 
+import feign.Client;
+import feign.Feign;
+import feign.Target;
 import feign.target.MyFeignTarget;
 
 import java.net.URL;

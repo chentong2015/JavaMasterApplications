@@ -53,16 +53,8 @@ t
 Djava.basic.networking/src/main/java/apache/ApacheHttpClientDemo.java,0\8\0850161f273c8a89176c7a63667c876ab4175be9
 z
 Jjava.basic.reflections/src/main/java/com/example/main/MainReflections.java,b\f\bfc12166ec115af18d9e696daef5d1a55249f102
-m
-=java.basic.networking/src/main/java/feign/MyFeignBuilder.java,9\6\96b04dbdf3ebac6cbba01a5ef0c9000247a18afe
-x
-Hjava.basic.networking/src/main/java/feign/client/FeignRequestClient.java,1\6\16223baa0f1aec48268b2ed9cbe01672fb9b658a
 v
 Fjava.basic.others/src/main/java/com/java/others/ant/Apache Ant Library,f\4\f499fc099767506945641c17964bdd67600d4e07
-}
-Mjava.basic.networking/src/main/java/feign/client/NullResponseFeignClient.java,1\8\1846f4667f2d5d7fd35525006c538a97fcbd3ab2
-t
-Djava.basic.networking/src/main/java/feign/OpenFeignClientTester.java,c\1\c1d71146f9d67577fe4beab368c52ec4b9645930
 t
 Djava.basic.others/src/main/java/com/java/others/Json/Object序列化,7\d\7d760f9db7be666cec31b8dde883f428cc788132
 u
