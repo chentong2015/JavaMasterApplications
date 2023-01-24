@@ -12,7 +12,7 @@ import java.nio.charset.StandardCharsets;
 // Utility classes, stream implementations, file filters, file comparators, endian transformation classes
 
 // TODO. SerializationUtils Class of Spring Framework 框架自带的序列化工具
-public class BaseApacheCommonIO {
+public class ApacheCommonIO {
 
     // SerializationUtils: 对象的序列化和反序列化
     public void testSerializationUtils() {

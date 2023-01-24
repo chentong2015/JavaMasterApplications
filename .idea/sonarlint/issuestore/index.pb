@@ -1,6 +1,4 @@
 
-Å
-Qjava.basic.others/src/main/java/com/java/others/CommonIO/GoolgeGuavaCoreJava.java,3\1\319a54d9255ed9f05c2696dd07cb9ec574ac2a2e
 w
 Gjava.basic.others/src/main/java/com/java/others/Json/model/Student.java,f\f\ff0192ad4b68d519c188801ea4482fbfdd93085a
 v
@@ -61,8 +59,6 @@ u
 Ejava.basic.others/src/main/java/com/java/others/Json/BaseJackson.java,5\5\55cbe8f961d1d71b7b3842840614292ad6958144
 
 Ojava.basic.others/src/main/java/com/java/others/Json/BaseJacksonMapperTree.java,c\5\c5cb79a5a7783991e51e910d16f317e974885dc0
-Ä
-Pjava.basic.others/src/main/java/com/java/others/CommonIO/BaseApacheCommonIO.java,1\5\152cdf55c9d63dd52ecab11fae1b586111083084
 y
 Ijava.basic.networking/src/main/java/dropwizard/Dropwizard WebÂêéÁ´ØÊ°ÜÊû∂,1\5\15e8e9033f5c019176a4ad637522b64c3092a729
 7
@@ -77,3 +73,19 @@ Sjava.basic.networking/src/main/java/jax/restful/service/MyClientRequestContext.
 Rjava.basic.networking/src/main/java/jax/restful/service/NotificationsResource.java,e\b\ebda1e93bc5f87ff8e8de74f1d857e214efec741
 
 Ojava.basic.networking/src/main/java/jax/restful/service/JaxRestServiceDemo.java,6\c\6c1a735e8817b3488afde8ebdb34fccfb1f41307
+v
+Fjava.basic.others/src/main/java/com/java/others/csv/JavaCsvTester.java,b\f\bf5cf2d672cfbfbaeaa2860fe87b7b6b5891ee36
+v
+Fjava.basic.networking/src/main/java/feign/retryer/MyNativeRetryer.java,3\c\3ca47c0662431e6eb571ecc3b179c9eb1220a0dc
+x
+Hjava.basic.networking/src/main/java/feign/client/FeignRequestClient.java,1\6\16223baa0f1aec48268b2ed9cbe01672fb9b658a
+u
+Ejava.basic.networking/src/main/java/feign/builder/MyFeignBuilder.java,f\7\f7dc4ac8de91c9b434214231ed243481a4bfb235
+Å
+Qjava.basic.networking/src/main/java/feign/exception/OpenFeignClientException.java,3\c\3c1fd9d8ef9d51efe48236074de2118b690051c1
+{
+Kjava.basic.networking/src/main/java/feign/client/OpenFeignClientTester.java,0\f\0f2694fb634b12638b478b9ab24bba7b3c809c74
+Å
+Qjava.basic.networking/src/main/java/feign/exception/WithExceptionFeignClient.java,f\4\f41f9c8e579689735d1817af0f3c58f636497c8a
+}
+Mjava.basic.networking/src/main/java/feign/client/NullResponseFeignClient.java,1\8\1846f4667f2d5d7fd35525006c538a97fcbd3ab2
