@@ -89,3 +89,12 @@ Mjava.basic.networking/src/main/java/feign/client/NullResponseFeignClient.java,
 Ljava.basic.others/src/main/java/com/java/others/CommonIO/ApacheCommonIO.java,2\0\2072b06bd5fac9c00f53f4b74946401a4623f712
 Å
 Qjava.basic.others/src/main/java/com/java/others/CommonIO/GoogleGuavaCoreJava.java,b\6\b6edeadc2794e5f4637f7458538defd3cf231e90
+Ñ
+Tjava.basic.others/src/main/java/com/java/others/Pojo/Lombok/BaseLombokDataClass.java,8\8\8819ee3b471fcc34d94c2e3442c05785c3b9e261
+Ç
+Rjava.basic.others/src/main/java/com/java/others/Pojo/Lombok/BaseLombokBuilder.java,5\f\5fbec81157f8835b5dfab5231db0c8923a9696b3
+{
+Kjava.basic.others/src/main/java/com/java/others/Pojo/Lombok/BaseLombok.java,3\c\3c10d9075af89258c60b4f8a803470feac95b647
+:
+
+output.csv,c\f\cf1a8b3838f4e68a5b2291214b769ab55bfdb3f8
