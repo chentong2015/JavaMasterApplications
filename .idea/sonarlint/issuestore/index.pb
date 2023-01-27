@@ -23,8 +23,6 @@ t
 Djava.basic.others/src/main/java/com/java/others/XML/SAX/BaseSAX.java,b\b\bb24751a56b032a1cac83cd2826f9fd9add9d0c1
 v
 Fjava.basic.others/src/main/java/com/java/others/Excel/POI/BasePOI.java,a\1\a1b9b44f24e26704211c37c2014bef19b6428182
-{
-Kjava.basic.others/src/main/java/com/java/others/Pojo/Lombok/BaseLombok.java,3\c\3c10d9075af89258c60b4f8a803470feac95b647
 w
 Gjava.basic.others/src/main/java/com/java/others/XML/JCabi/XML/JCabi XML,0\0\0004e62a2ab93c9c1014e25f2340d9812c529baa
 Ä
@@ -74,8 +72,6 @@ Rjava.basic.networking/src/main/java/jax/restful/service/NotificationsResource.j
 
 Ojava.basic.networking/src/main/java/jax/restful/service/JaxRestServiceDemo.java,6\c\6c1a735e8817b3488afde8ebdb34fccfb1f41307
 v
-Fjava.basic.others/src/main/java/com/java/others/csv/JavaCsvTester.java,b\f\bf5cf2d672cfbfbaeaa2860fe87b7b6b5891ee36
-v
 Fjava.basic.networking/src/main/java/feign/retryer/MyNativeRetryer.java,3\c\3ca47c0662431e6eb571ecc3b179c9eb1220a0dc
 x
 Hjava.basic.networking/src/main/java/feign/client/FeignRequestClient.java,1\6\16223baa0f1aec48268b2ed9cbe01672fb9b658a
@@ -89,3 +85,7 @@ Kjava.basic.networking/src/main/java/feign/client/OpenFeignClientTester.java,0\
 Qjava.basic.networking/src/main/java/feign/exception/WithExceptionFeignClient.java,f\4\f41f9c8e579689735d1817af0f3c58f636497c8a
 }
 Mjava.basic.networking/src/main/java/feign/client/NullResponseFeignClient.java,1\8\1846f4667f2d5d7fd35525006c538a97fcbd3ab2
+|
+Ljava.basic.others/src/main/java/com/java/others/CommonIO/ApacheCommonIO.java,2\0\2072b06bd5fac9c00f53f4b74946401a4623f712
+Å
+Qjava.basic.others/src/main/java/com/java/others/CommonIO/GoogleGuavaCoreJava.java,b\6\b6edeadc2794e5f4637f7458538defd3cf231e90
