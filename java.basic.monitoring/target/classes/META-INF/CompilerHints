@@ -1,0 +1,12 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,com/jdk/jmh/test/OutputStreamBenchmarksTest.benchEscape_0
+inline,com/jdk/jmh/test/OutputStreamBenchmarksTest.benchEscape_1
+inline,com/jdk/jmh/test/OutputStreamBenchmarksTest.benchEscape_2
+inline,com/jdk/jmh/test/OutputStreamBenchmarksTest.benchEscape_3
+inline,com/jdk/jmh/test/OutputStreamBenchmarksTest.benchEscape_base
+inline,com/jdk/jmh/test/OutputStreamBenchmarksTest.setup
+inline,com/jdk/jmh/test/OutputStreamBenchmarksTest.tearDown
