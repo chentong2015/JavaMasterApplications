@@ -61,7 +61,7 @@
             <scope>runtime</scope>
         </dependency>
 
-
+        <!-- 包含对org.w3c.dom.Document的具体实现 -->
         <dependency>
             <groupId>com.jcabi</groupId>
             <artifactId>jcabi-xml</artifactId>

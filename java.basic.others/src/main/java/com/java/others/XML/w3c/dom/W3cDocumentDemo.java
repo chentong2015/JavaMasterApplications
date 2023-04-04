@@ -16,7 +16,8 @@ public class W3cDocumentDemo {
 
     public static void main(String[] args) {
         DOMImplementation domImplementation = getDocumentBuilder().getDOMImplementation();
-        DocumentType docType = domImplementation.createDocumentType("hibernate-mapping", "-//Hibernate/Hibernate Mapping DTD 3.0//EN",
+        DocumentType docType = domImplementation.createDocumentType("hibernate-mapping",
+                "-//Hibernate/Hibernate Mapping DTD 3.0//EN",
                 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd");
         document = domImplementation.createDocument(null, "hibernate-mapping", docType);
         document.getDocumentElement().setAttribute("default-cascade", "none");
