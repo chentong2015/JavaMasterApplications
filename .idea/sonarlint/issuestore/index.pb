@@ -47,8 +47,6 @@ u
 Ejava.basic.others/src/main/java/com/java/others/Json/BaseJackson.java,5\5\55cbe8f961d1d71b7b3842840614292ad6958144
 
 Ojava.basic.others/src/main/java/com/java/others/Json/BaseJacksonMapperTree.java,c\5\c5cb79a5a7783991e51e910d16f317e974885dc0
-y
-Ijava.basic.networking/src/main/java/dropwizard/Dropwizard Web后端框架,1\5\15e8e9033f5c019176a4ad637522b64c3092a729
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 �
@@ -115,3 +113,5 @@ v
 Fjava.basic.others/src/main/java/com/java/others/csv/JavaCsvTester.java,b\f\bf5cf2d672cfbfbaeaa2860fe87b7b6b5891ee36
 v
 Fjava.basic.others/src/main/java/com/java/others/csv/JavaCsvLoader.java,4\e\4eac696288c9cda9cb8d653f14a633ef5cc775d2
+I
+java.basic.others/pom.xml,6\9\69b43eb83ddaa6bf05a0a34f0d2ed999ab72fbce
