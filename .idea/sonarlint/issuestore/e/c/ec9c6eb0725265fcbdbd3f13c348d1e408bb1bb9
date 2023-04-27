@@ -1,0 +1,12 @@
+
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(÷‘òî8Ãì©åô0
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œ÷»ˆ
+S
+java:S1854"=Remove this useless assignment to local variable "attrValue".(Ûö­Ï
+D
+java:S1481".Remove this unused "attrValue" local variable.(Ûö­Ï
+‰
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(÷‘òî8×ì©åô0
+X	java:S125*"<This block of commented-out lines of code should be removed.(ÉôÔ’8öµ§åô0
+_
+java:S1144"BRemove this unused private "adaptHbmFileWithEntityNameTag" method.(÷‘òî8Ù’¥åô0

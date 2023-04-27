@@ -73,18 +73,12 @@ Kjava.basic.networking/src/main/java/feign/client/OpenFeignClientTester.java,0\
 Qjava.basic.networking/src/main/java/feign/exception/WithExceptionFeignClient.java,f\4\f41f9c8e579689735d1817af0f3c58f636497c8a
 }
 Mjava.basic.networking/src/main/java/feign/client/NullResponseFeignClient.java,1\8\1846f4667f2d5d7fd35525006c538a97fcbd3ab2
-|
-Ljava.basic.others/src/main/java/com/java/others/CommonIO/ApacheCommonIO.java,2\0\2072b06bd5fac9c00f53f4b74946401a4623f712
-Å
-Qjava.basic.others/src/main/java/com/java/others/CommonIO/GoogleGuavaCoreJava.java,b\6\b6edeadc2794e5f4637f7458538defd3cf231e90
 Ñ
 Tjava.basic.others/src/main/java/com/java/others/Pojo/Lombok/BaseLombokDataClass.java,8\8\8819ee3b471fcc34d94c2e3442c05785c3b9e261
 Ç
 Rjava.basic.others/src/main/java/com/java/others/Pojo/Lombok/BaseLombokBuilder.java,5\f\5fbec81157f8835b5dfab5231db0c8923a9696b3
 {
 Kjava.basic.others/src/main/java/com/java/others/Pojo/Lombok/BaseLombok.java,3\c\3c10d9075af89258c60b4f8a803470feac95b647
-d
-4java.basic.others/src/main/java/base/model/User.java,9\6\9657116fd5e34275b10ac68e57302ec00779598d
 Ä
 Pjava.basic.monitoring/src/main/java/com/jdk/jmh/test/model/NullOutputStream.java,7\2\72f2ae6aa4d1ec324117ef0dfa7308ee844c5204
 z
@@ -115,3 +109,11 @@ v
 Fjava.basic.others/src/main/java/com/java/others/csv/JavaCsvLoader.java,4\e\4eac696288c9cda9cb8d653f14a633ef5cc775d2
 I
 java.basic.others/pom.xml,6\9\69b43eb83ddaa6bf05a0a34f0d2ed999ab72fbce
+y
+Ijava.basic.networking/src/main/java/dropwizard/Dropwizard WebÂêéÁ´ØÊ°ÜÊû∂,1\5\15e8e9033f5c019176a4ad637522b64c3092a729
+c
+3java.basic.networking/src/main/java/wildFly/wildFly,5\c\5c363cc1571ef7c66d7ea98abd4e54dfa5ba158d
+Ä
+Pjava.basic.others/src/main/java/com/java/others/XML/w3c/dom/XMLDocumentDemo.java,e\c\ec9c6eb0725265fcbdbd3f13c348d1e408bb1bb9
+Ä
+Pjava.basic.others/src/main/java/com/java/others/XML/w3c/dom/W3cDocumentDemo.java,d\7\d7462d8d2869a6b52ca8c626e7f322ab7733b86b

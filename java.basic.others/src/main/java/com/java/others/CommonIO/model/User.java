@@ -1,4 +1,4 @@
-package base.model;
+package com.java.others.CommonIO.model;
 
 import java.io.Serializable;
 

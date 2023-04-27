@@ -1,6 +1,6 @@
 package com.java.others.CommonIO;
 
-import base.model.User;
+import com.java.others.CommonIO.model.User;
 import feign.Response;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.SerializationUtils;

@@ -1,0 +1,6 @@
+
+`	java:S1121"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œ÷»ˆ
+I
+java:S2755-"3Disable access to external entities in XML parsing.(ð¨ºî
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(á±Çäûÿÿÿÿ
