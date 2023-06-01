@@ -6,6 +6,9 @@ import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.SerializationUtils;
 
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.StringWriter;
+import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 
 // Apache Commons IO library 公共IO类库
@@ -32,5 +35,11 @@ public class ApacheCommonIO {
             }
         }
         return String.format("status %s invoking %s", response.status(), method);
+    }
+
+    private static boolean testIOUtilsCopy(InputStream inputStream) throws Exception {
+        StringWriter writer = new StringWriter();
+        IOUtils.copy(inputStream, writer, Charset.defaultCharset());
+        return writer.toString().contains("maintenance");
     }
 }

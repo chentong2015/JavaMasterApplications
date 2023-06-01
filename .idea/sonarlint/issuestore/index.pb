@@ -41,12 +41,6 @@ t
 Djava.basic.networking/src/main/java/apache/ApacheHttpClientDemo.java,0\8\0850161f273c8a89176c7a63667c876ab4175be9
 v
 Fjava.basic.others/src/main/java/com/java/others/ant/Apache Ant Library,f\4\f499fc099767506945641c17964bdd67600d4e07
-t
-Djava.basic.others/src/main/java/com/java/others/Json/Object序列化,7\d\7d760f9db7be666cec31b8dde883f428cc788132
-u
-Ejava.basic.others/src/main/java/com/java/others/Json/BaseJackson.java,5\5\55cbe8f961d1d71b7b3842840614292ad6958144
-
-Ojava.basic.others/src/main/java/com/java/others/Json/BaseJacksonMapperTree.java,c\5\c5cb79a5a7783991e51e910d16f317e974885dc0
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 �
@@ -107,8 +101,6 @@ v
 Fjava.basic.others/src/main/java/com/java/others/csv/JavaCsvTester.java,b\f\bf5cf2d672cfbfbaeaa2860fe87b7b6b5891ee36
 v
 Fjava.basic.others/src/main/java/com/java/others/csv/JavaCsvLoader.java,4\e\4eac696288c9cda9cb8d653f14a633ef5cc775d2
-I
-java.basic.others/pom.xml,6\9\69b43eb83ddaa6bf05a0a34f0d2ed999ab72fbce
 y
 Ijava.basic.networking/src/main/java/dropwizard/Dropwizard Web后端框架,1\5\15e8e9033f5c019176a4ad637522b64c3092a729
 c
@@ -117,3 +109,11 @@ c
 Pjava.basic.others/src/main/java/com/java/others/XML/w3c/dom/XMLDocumentDemo.java,e\c\ec9c6eb0725265fcbdbd3f13c348d1e408bb1bb9
 �
 Pjava.basic.others/src/main/java/com/java/others/XML/w3c/dom/W3cDocumentDemo.java,d\7\d7462d8d2869a6b52ca8c626e7f322ab7733b86b
+�
+Qjava.basic.others/src/main/java/com/java/others/CommonIO/GoogleGuavaCoreJava.java,b\6\b6edeadc2794e5f4637f7458538defd3cf231e90
+x
+Hjava.basic.others/src/main/java/com/java/others/CommonIO/model/User.java,f\d\fd03bca6a5721275b821e1ab17c47e583531269a
+�
+Pjava.basic.others/src/main/java/com/java/others/freemarker/Apache FreeMarker.txt,2\b\2b6863281bc4dba4dbcb2a344c5189d6b850daa5
+t
+Djava.basic.others/src/main/java/com/java/others/Json/Object序列化,7\d\7d760f9db7be666cec31b8dde883f428cc788132
