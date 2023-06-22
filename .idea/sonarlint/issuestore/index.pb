@@ -27,8 +27,6 @@ Gjava.basic.others/src/main/java/com/java/others/XML/JCabi/XML/JCabi XML,0\0\00
 Yjava.basic.others/src/main/java/com/java/others/Schedule/trigger/BaseScheduleTrigger.java,9\e\9ee34f1b0d5fec36940ff18d91e73099190b2964
 x
 Hjava.basic.reflections/src/main/java/com/example/main/model/Project.java,2\0\20b91bb4c8338dca14d79a76cb0700a2c4f55f5b
-{
-Kjava.basic.reflections/src/main/java/com/example/main/model/SubProject.java,0\8\080c8599c3822730a9ca1e91e8b77d132e2b2a02
 z
 Jjava.basic.others/src/main/java/com/java/others/XML/JAXB/model/Person.java,6\0\608573169422aa3e7d3360fff2c1a16b5665bef7
 M
@@ -93,10 +91,6 @@ Gjava.basic.monitoring/src/main/java/com/jdk/jmh/test/基准测试报告,3\9\39
 Tjava.basic.monitoring/src/main/java/com/jdk/jmh/test/OutputStreamBenchmarksTest.java,9\5\9588eca4ea0c6193896c3ce7efcbb1e47f2a4ae5
 t
 Djava.basic.monitoring/src/main/java/com/jdk/jmh/BenchmarkRunner.java,4\4\44fb364282c9064b913857ef4343442b3fc650f8
-N
-java.basic.reflections/pom.xml,d\0\d062fc8e88847608ebffb58e6a123ce8c711dbf8
-z
-Jjava.basic.reflections/src/main/java/com/example/main/MainReflections.java,b\f\bfc12166ec115af18d9e696daef5d1a55249f102
 v
 Fjava.basic.others/src/main/java/com/java/others/csv/JavaCsvTester.java,b\f\bf5cf2d672cfbfbaeaa2860fe87b7b6b5891ee36
 v
@@ -117,3 +111,13 @@ Hjava.basic.others/src/main/java/com/java/others/CommonIO/model/User.java,f\d\f
 Pjava.basic.others/src/main/java/com/java/others/freemarker/Apache FreeMarker.txt,2\b\2b6863281bc4dba4dbcb2a344c5189d6b850daa5
 t
 Djava.basic.others/src/main/java/com/java/others/Json/Object序列化,7\d\7d760f9db7be666cec31b8dde883f428cc788132
+I
+java.basic.others/pom.xml,6\9\69b43eb83ddaa6bf05a0a34f0d2ed999ab72fbce
+|
+Ljava.basic.others/src/main/java/com/java/others/CommonIO/ApacheCommonIO.java,2\0\2072b06bd5fac9c00f53f4b74946401a4623f712
+u
+Ejava.basic.others/src/main/java/com/java/others/Json/BaseJackson.java,5\5\55cbe8f961d1d71b7b3842840614292ad6958144
+
+Ojava.basic.others/src/main/java/com/java/others/Json/BaseJacksonMapperTree.java,c\5\c5cb79a5a7783991e51e910d16f317e974885dc0
+{
+Kjava.basic.reflections/src/main/java/com/example/main/model/SubProject.java,0\8\080c8599c3822730a9ca1e91e8b77d132e2b2a02
