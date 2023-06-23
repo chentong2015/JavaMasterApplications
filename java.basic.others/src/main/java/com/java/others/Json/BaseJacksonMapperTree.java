@@ -27,6 +27,7 @@ public class BaseJacksonMapperTree {
         }
     }
 
+    // Jackson判断json文件中的node是否包含指定的field字段
     public static void main(String[] args) throws IOException {
         String value = "{\n" +
                 "   \"displayName\":\"The Hello\",\n" +

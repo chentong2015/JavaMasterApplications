@@ -1,14 +1,0 @@
-
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ûäˆ¯ÿÿÿÿÿ
-T
-java:S1135"2Complete the task associated to this TODO comment.(¸œ‹÷üÿÿÿÿ8îÁâ‚‡0
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Íş‡Ş
-S	java:S106"9Replace this use of System.out or System.err by a logger.(²ï¾ûÿÿÿÿ
-]	java:S125"<This block of commented-out lines of code should be removed.(¬öıÿÿÿÿ8Äóè‚‡0
-U	java:S106"9Replace this use of System.out or System.err by a logger.(Íş‡Ş8ÇŞè‚‡0
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(¸»¡³ÿÿÿÿÿ8…ï‚‡0
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÒÂûøÿÿÿÿ8…ï‚‡0
-Z	java:S106%"9Replace this use of System.out or System.err by a logger.(ğŒìĞıÿÿÿÿ8ğ¬ï‚‡0
-X	java:S125&"<This block of commented-out lines of code should be removed.(»­’Í8ğ¬ï‚‡0
-Z	java:S1062"9Replace this use of System.out or System.err by a logger.(íªœêıÿÿÿÿ8ñ¬ï‚‡0
-Z	java:S1063"9Replace this use of System.out or System.err by a logger.(ïéŞŒøÿÿÿÿ8ñ¬ï‚‡0

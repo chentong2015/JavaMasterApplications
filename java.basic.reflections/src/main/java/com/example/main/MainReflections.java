@@ -29,6 +29,7 @@ public class MainReflections {
         //         .filterInputsBy(new FilterBuilder().includePackage(dtoPackageName));
         // Reflections reflections = new Reflections(configurationBuilder);
 
+        // 在扫描具有特殊注解的的类型时，需要添加package路径的过滤器，否则会全模块扫描
         ConfigurationBuilder configurationBuilder = new ConfigurationBuilder()
                 .forPackage(dtoPackageName)
                 .setScanners(Scanners.TypesAnnotated, Scanners.FieldsAnnotated, Scanners.MethodsAnnotated)

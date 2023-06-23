@@ -19,8 +19,6 @@ s
 Cjava.basic.others/src/main/java/com/java/others/SMTP/BaseEmail.java,0\3\0338b114b056ef22df270b88d9cca089e0ef5623
 t
 Djava.basic.others/src/main/java/com/java/others/XML/SAX/BaseSAX.java,b\b\bb24751a56b032a1cac83cd2826f9fd9add9d0c1
-v
-Fjava.basic.others/src/main/java/com/java/others/Excel/POI/BasePOI.java,a\1\a1b9b44f24e26704211c37c2014bef19b6428182
 w
 Gjava.basic.others/src/main/java/com/java/others/XML/JCabi/XML/JCabi XML,0\0\0004e62a2ab93c9c1014e25f2340d9812c529baa
 ‰
@@ -115,9 +113,11 @@ I
 java.basic.others/pom.xml,6\9\69b43eb83ddaa6bf05a0a34f0d2ed999ab72fbce
 |
 Ljava.basic.others/src/main/java/com/java/others/CommonIO/ApacheCommonIO.java,2\0\2072b06bd5fac9c00f53f4b74946401a4623f712
-u
-Ejava.basic.others/src/main/java/com/java/others/Json/BaseJackson.java,5\5\55cbe8f961d1d71b7b3842840614292ad6958144
-
-Ojava.basic.others/src/main/java/com/java/others/Json/BaseJacksonMapperTree.java,c\5\c5cb79a5a7783991e51e910d16f317e974885dc0
 {
 Kjava.basic.reflections/src/main/java/com/example/main/model/SubProject.java,0\8\080c8599c3822730a9ca1e91e8b77d132e2b2a02
+|
+Ljava.basic.reflections/src/main/java/com/example/main/data/MyEntityData.java,3\3\337b208cb7ffae0b0d155eba17680c0af7fd3bd9
+N
+java.basic.reflections/pom.xml,d\0\d062fc8e88847608ebffb58e6a123ce8c711dbf8
+w
+Gjava.basic.reflections/src/main/java/com/example/main/dto/MyEntity.java,8\b\8b056e6e8b3487d13c776fcdb2b40a50ef3fb08c
