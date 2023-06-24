@@ -121,3 +121,13 @@ N
 java.basic.reflections/pom.xml,d\0\d062fc8e88847608ebffb58e6a123ce8c711dbf8
 w
 Gjava.basic.reflections/src/main/java/com/example/main/dto/MyEntity.java,8\b\8b056e6e8b3487d13c776fcdb2b40a50ef3fb08c
+z
+Jjava.basic.others/src/main/java/com/java/others/Excel/POI/build.gradle.txt,3\e\3e3179ba8eaff964c32a0bacebf3ec13b9bdac91
+v
+Fjava.basic.others/src/main/java/com/java/others/Excel/POI/BasePOI.java,a\1\a1b9b44f24e26704211c37c2014bef19b6428182
+~
+Njava.basic.others/src/main/java/com/java/others/Json/BaseJacksonSerialize.java,c\a\ca565b8a5a6a325125ee5d8c856840c5d477f878
+
+Ojava.basic.others/src/main/java/com/java/others/Json/BaseJacksonMapperTree.java,c\5\c5cb79a5a7783991e51e910d16f317e974885dc0
+u
+Ejava.basic.others/src/main/java/com/java/others/Json/BaseJackson.java,5\5\55cbe8f961d1d71b7b3842840614292ad6958144
