@@ -18,14 +18,15 @@ public class MainReflections {
 
     public static void main(String[] args) {
         String dtoPackageName = MyEntityData.class.getPackageName();
-        
+
         // 在扫描具有特殊注解的的类型时，需要添加package路径的过滤器，否则会全模块扫描
+        // 在某种Spring的特殊环境下，Filter过滤器将会失效，需要自定义提供过滤条件 !!
         new FilterBuilder().add(path -> path.contains("com.example.main"));
         ConfigurationBuilder configurationBuilder = new ConfigurationBuilder()
                 .forPackage(dtoPackageName)
                 .setScanners(Scanners.TypesAnnotated, Scanners.FieldsAnnotated, Scanners.MethodsAnnotated)
                 .setInputsFilter(path -> path.contains("com.package.path"))
-                .filterInputsBy(new FilterBuilder().includePackage(dtoPackageName));
+                .filterInputsBy(path -> path.contains(dtoPackageName));
         Reflections reflections = new Reflections(configurationBuilder);
         System.out.println("done");
     }
@@ -39,14 +40,13 @@ public class MainReflections {
     //         .filterInputsBy(new FilterBuilder().includePackage(dtoPackageName));
     // Reflections reflections = new Reflections(configurationBuilder);
     private static void testReflectionFilter() {
-        FilterBuilder filterBuilder = new FilterBuilder()
-                .includePackage("com.reflections")
-                .excludePackage("com.reflections.test");
-
+        // TypesAnnotated扫描的是类上的注解
         Reflections reflections = new Reflections(new ConfigurationBuilder()
                 .setUrls(ClasspathHelper.forPackage("com.example.reflections"))
                 .setScanners(SubTypes, TypesAnnotated)
-                .filterInputsBy(filterBuilder));
+                .filterInputsBy(new FilterBuilder()
+                        .includePackage("com.reflections")
+                        .excludePackage("com.reflections.test")));
         System.out.println(reflections);
     }
 
