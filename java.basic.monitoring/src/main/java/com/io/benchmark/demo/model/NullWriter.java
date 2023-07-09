@@ -1,4 +1,4 @@
-package com.jdk.jmh.test.model;
+package com.io.benchmark.demo.model;
 
 import java.io.IOException;
 import java.io.Writer;

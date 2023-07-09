@@ -1,6 +1,6 @@
 package com.jdk.jmh.test.jmh_generated;
-import com.jdk.jmh.test.OutputStreamBenchmarksTest;
-public class OutputStreamBenchmarksTest_jmhType_B1 extends com.jdk.jmh.test.OutputStreamBenchmarksTest {
+import com.io.benchmark.demo.OutputStreamBenchmarksTest;
+public class OutputStreamBenchmarksTest_jmhType_B1 extends OutputStreamBenchmarksTest {
     byte p000, p001, p002, p003, p004, p005, p006, p007, p008, p009, p010, p011, p012, p013, p014, p015;
     byte p016, p017, p018, p019, p020, p021, p022, p023, p024, p025, p026, p027, p028, p029, p030, p031;
     byte p032, p033, p034, p035, p036, p037, p038, p039, p040, p041, p042, p043, p044, p045, p046, p047;

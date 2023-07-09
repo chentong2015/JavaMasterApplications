@@ -11,9 +11,7 @@ public class JavaCsvTester {
     public static void main(String[] args) {
         String lineSeparator = System.getProperty("line.separator");
         String fileName = "output.csv";
-
-        // 添加转义字符进行输出
-        System.out.println(" block3 \\r\\n block4");
+        System.out.println(" block3 \\r\\n block4"); // 添加转义字符进行输出
 
         try (FileOutputStream out = new FileOutputStream(fileName);
              BufferedOutputStream stream = new BufferedOutputStream(out)) {

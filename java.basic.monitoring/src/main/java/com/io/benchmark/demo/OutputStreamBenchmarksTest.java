@@ -1,8 +1,8 @@
-package com.jdk.jmh.test;
+package com.io.benchmark.demo;
 
-import com.jdk.jmh.test.model.NullOutputStream;
-import com.jdk.jmh.test.model.NullWriter;
-import com.jdk.jmh.test.model.TruncateInfos;
+import com.io.benchmark.demo.model.NullOutputStream;
+import com.io.benchmark.demo.model.NullWriter;
+import com.io.benchmark.demo.model.TruncateInfos;
 import org.apache.commons.lang.RandomStringUtils;
 import org.openjdk.jmh.annotations.*;
 

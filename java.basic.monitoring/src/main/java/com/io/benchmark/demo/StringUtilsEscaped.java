@@ -1,4 +1,4 @@
-package com.jdk.jmh.test;
+package com.io.benchmark.demo;
 
 public class StringUtilsEscaped {
 

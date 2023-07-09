@@ -1,16 +1,16 @@
-package com.jdk.jmh.test;
+package com.io.benchmark.demo;
 
 public class StringBuilderEscaped {
 
-    StringBuilder sb = new StringBuilder();
+    StringBuilder stringBuilder = new StringBuilder();
 
     public StringBuilderEscaped append(final CharSequence value) {
-        sb.append(value);
+        stringBuilder.append(value);
         return this;
     }
 
     public StringBuilderEscaped append(int nb) {
-        sb.append(nb);
+        stringBuilder.append(nb);
         return this;
     }
 
@@ -23,34 +23,34 @@ public class StringBuilderEscaped {
             // Search for character needing escaping
             if (c < 0x20 || c == 0x22 || c == 0x5C) {
                 // What we have so far does not contains anything to escape, write them all in once.
-                sb.append(value.substring(start, current));
+                stringBuilder.append(value.substring(start, current));
                 switch (c) {
                     case '"':
-                        sb.append("\\\"");
+                        stringBuilder.append("\\\"");
                         break;
                     case '\\':
-                        sb.append("\\\\");
+                        stringBuilder.append("\\\\");
                         break;
                     case '\b':
-                        sb.append("\\b");
+                        stringBuilder.append("\\b");
                         break;
                     case '\f':
-                        sb.append("\\f");
+                        stringBuilder.append("\\f");
                         break;
                     case '\n':
-                        sb.append("\\n");
+                        stringBuilder.append("\\n");
                         break;
                     case '\r':
-                        sb.append("\\r");
+                        stringBuilder.append("\\r");
                         break;
                     case '\t':
-                        sb.append("\\t");
+                        stringBuilder.append("\\t");
                         break;
                     case '\0':
-                        sb.append("\\0");
+                        stringBuilder.append("\\0");
                         break;
                     default:
-                        sb.append("u" + Integer.toString(c));
+                        stringBuilder.append("u" + Integer.toString(c));
                         break;
                 }
 
@@ -63,12 +63,12 @@ public class StringBuilderEscaped {
         }
         // Write remainings chars.
         if (current != start) {
-            sb.append(value.substring(start, current));
+            stringBuilder.append(value.substring(start, current));
         }
         return this;
     }
 
     public String toString() {
-        return sb.toString();
+        return stringBuilder.toString();
     }
 }
