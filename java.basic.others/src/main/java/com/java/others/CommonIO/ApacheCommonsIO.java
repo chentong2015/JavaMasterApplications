@@ -1,12 +1,12 @@
 package com.java.others.CommonIO;
 
-import com.java.others.CommonIO.model.User;
 import feign.Response;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.SerializationUtils;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.Serializable;
 import java.io.StringWriter;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
@@ -15,7 +15,7 @@ import java.nio.charset.StandardCharsets;
 // Utility classes, stream implementations, file filters, file comparators, endian transformation classes
 
 // TODO. SerializationUtils Class of Spring Framework 框架自带的序列化工具
-public class ApacheCommonIO {
+public class ApacheCommonsIO {
 
     // SerializationUtils: 对象的序列化和反序列化
     public void testSerializationUtils() {
@@ -42,4 +42,33 @@ public class ApacheCommonIO {
         IOUtils.copy(inputStream, writer, Charset.defaultCharset());
         return writer.toString().contains("maintenance");
     }
+
+
+    class User implements Serializable {
+
+        private int id;
+        private String name;
+
+        public User(int id, String name) {
+            this.id = id;
+            this.name = name;
+        }
+
+        public int getId() {
+            return id;
+        }
+
+        public void setId(int id) {
+            this.id = id;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+    }
+
 }

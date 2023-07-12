@@ -1,10 +1,0 @@
-
-g	java:S112("FDefine and throw a dedicated exception instead of using a generic one.(ìœºäúÿÿÿÿ8ÃÂÂ’…1
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½žû­
-M
-java:S1135"2Complete the task associated to this TODO comment.(€žô”úÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(¥’„’
-M
-java:S1144"8Remove this unused private "extractResponseBody" method.(€á¢M
-V
-java:S1144("4Remove this unused private "testIOUtilsCopy" method.(ìœºäúÿÿÿÿ8ˆÚÃ’…1
