@@ -1,6 +1,0 @@
-
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( ´¿¡úÿÿÿÿ
-]
-java:S1854";Remove this useless assignment to local variable "trigger".(Â™ùñüÿÿÿÿ8¹£ÿ‡£0
-N
-java:S1481",Remove this unused "trigger" local variable.(Â™ùñüÿÿÿÿ8º£ÿ‡£0

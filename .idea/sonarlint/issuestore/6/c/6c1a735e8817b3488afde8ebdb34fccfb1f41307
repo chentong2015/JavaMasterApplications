@@ -1,13 +1,0 @@
-
-Q	java:S125"<This block of commented-out lines of code should be removed.(‰¯à¸
-W
-java:S1612"<Replace this lambda with method reference 'this::onMessage'.(†»»êÿÿÿÿÿ
-\
-java:S1612":Replace this lambda with method reference 'this::onError'.(Üæû±ÿÿÿÿÿ8«×³ªÊ0
-h
-java:S1612"FReplace this lambda with method reference 'countDownLatch::countDown'.(Èæœñÿÿÿÿÿ8À¸§ªÊ0
-Z	java:S106("9Replace this use of System.out or System.err by a logger.(ÙÂÿûÿÿÿÿ8¬×³ªÊ0
-U
-java:S1854-"8Remove this useless assignment to local variable "data".(åØë8¬×³ªÊ0
-F
-java:S1481-")Remove this unused "data" local variable.(åØë8­×³ªÊ0

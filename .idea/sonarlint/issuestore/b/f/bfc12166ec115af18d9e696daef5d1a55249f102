@@ -1,18 +1,0 @@
-
-k
-java:S3655>"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(È˜ÃÚıÿÿÿÿ
-f
-java:S3655:"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Ä½“
-Z
-java:S1854"?Remove this useless assignment to local variable "reflections".(úâ€±øÿÿÿÿ
-K
-java:S1481"0Remove this unused "reflections" local variable.(úâ€±øÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿìû‚øÿÿÿÿ
-Q	java:S125("<This block of commented-out lines of code should be removed.(ËŒ¼­
-N	java:S1062"9Replace this use of System.out or System.err by a logger.(÷æŠá
-N	java:S106:"9Replace this use of System.out or System.err by a logger.(Ä½“
-S	java:S106>"9Replace this use of System.out or System.err by a logger.(È˜ÃÚıÿÿÿÿ
-T
-java:S1144*"9Remove this unused private "testReflectionFilter" method.(Ü‘ßæûÿÿÿÿ
-N
-java:S11445"8Remove this unused private "testBaseReflections" method.(§­‹Ü

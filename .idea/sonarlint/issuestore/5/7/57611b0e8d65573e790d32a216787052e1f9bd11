@@ -1,0 +1,27 @@
+
+d
+java:S1192>"NDefine a constant instead of duplicating this literal "M_DESCRIPTION" 5 times.(»¦™¼
+^
+java:S1192>"HDefine a constant instead of duplicating this literal "varchar" 5 times.(»¦™¼
+e
+java:S11927"JDefine a constant instead of duplicating this literal "Truncated" 5 times.(àºæ´úÿÿÿÿ
+^
+java:S1192>"HDefine a constant instead of duplicating this literal "ABC_DBF" 5 times.(»¦™¼
+?
+java:S1604Š"(Make this anonymous inner class a lambda(àª²›
+h	java:S100="NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş‰«€ûÿÿÿÿ
+b	java:S100A"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁªÛ
+h	java:S100Q"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²âêîúÿÿÿÿ
+h	java:S100U"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆòÃüÿÿÿÿ
+h	java:S100n"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶Ÿİ×üÿÿÿÿ
+h	java:S100r"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ˆŸ€üÿÿÿÿ
+d	java:S100€"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öî—½
+z
+java:S2142›"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(üÍ”ûÿÿÿÿ
+W
+java:S2274";Remove this call to "await" or move it into a "while" loop.(‰«¸àıÿÿÿÿ
+d	java:S100£"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éËáÎ
+i	java:S100­"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™«Äğúÿÿÿÿ
+ˆ
+java:S1130­"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(™«Äğúÿÿÿÿ
+R	java:S125³"<This block of commented-out lines of code should be removed.(‚ƒàö

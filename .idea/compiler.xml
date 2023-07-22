@@ -8,8 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="web-networking" />
         <module name="class-reflections" />
+        <module name="java.baisc.networking" />
+        <module name="java.basic.monitoring" />
         <module name="third-party-libraries" />
         <module name="aspect-runtime" />
+        <module name="java.basic.others" />
+        <module name="test" />
         <module name="performance-monitoring" />
       </profile>
     </annotationProcessing>
