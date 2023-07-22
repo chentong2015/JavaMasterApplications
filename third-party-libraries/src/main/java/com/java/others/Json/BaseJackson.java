@@ -7,16 +7,14 @@ import com.java.others.Json.model.*;
 import java.util.List;
 
 public class BaseJackson {
-    
+
     public static void main(String[] args) throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
         MyInstance instance = new MyInstance("test", List.of("item1", "item2"));
 
-        // TODO. 这里获取到的list序列是不可修改的 ?
         List<String> copyServices = instance.getServices();
         System.out.println(copyServices);
         // copyServices.remove(1);
-
         System.out.println(objectMapper.writeValueAsString(instance));
         System.out.println(copyServices);
     }
