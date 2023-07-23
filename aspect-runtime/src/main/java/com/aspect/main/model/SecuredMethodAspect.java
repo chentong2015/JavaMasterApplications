@@ -12,7 +12,7 @@ public class SecuredMethodAspect {
     public void callAt(Secured secured) {
     }
 
-    @Around("callAt(secured)")
+    @Around(value = "callAt(secured)", argNames = "pjp,secured")
     public Object around(ProceedingJoinPoint pjp, Secured secured) throws Throwable {
         return secured.isLocked() ? null : pjp.proceed();
     }

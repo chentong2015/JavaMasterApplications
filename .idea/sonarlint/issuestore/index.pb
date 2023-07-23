@@ -1,16 +1,6 @@
 
 ‚
 Rthird-party-libraries/src/main/java/com/java/others/CommonIO/ApacheCommonsCli.java,1\c\1ca375bff1802224c77ed5edce64c5f0a55d9b8c
-F
-aspect-runtime/pom.xml,c\5\c5bb77d25ab7487625087829d9350cb96366e065
-o
-?aspect-runtime/src/main/java/com/aspect/main/model/Secured.java,c\5\c562ca9123382ea08eb195f535e0754bafdc61b3
-t
-Daspect-runtime/src/main/java/com/aspect/main/model/SecuredClass.java,c\7\c7d63c446a018bb1c5a890489e0b61bb6ab37c5b
-{
-Kaspect-runtime/src/main/java/com/aspect/main/model/SecuredMethodAspect.java,8\f\8f26c4efda156ad583c62a8a7c681062b1d949be
-l
-<aspect-runtime/src/main/java/com/aspect/main/MainAspect.java,e\e\ee15c79392444f24034daf044a49e0fb3321d2c3
 ~
 Naspect-runtime/src/main/java/com/aspect/main/interceptor/EventInterceptor.java,2\9\297a59f0786ca94e4ee2505ed17ab15011a96d9c
 I
@@ -25,3 +15,13 @@ Mperformance-monitoring/src/main/java/com/io/benchmark/demo/WriterEscaped.java,
 Rperformance-monitoring/src/main/java/com/io/benchmark/demo/StringUtilsEscaped.java,6\b\6b31431a304e5ba6b47ae23477a3a9599e51aad3
 „
 Tperformance-monitoring/src/main/java/com/io/benchmark/demo/StringBuilderEscaped.java,2\9\291e52a7b56cc7a6adca150e77c9aab1bb781da9
+“
+cthird-party-libraries/src/main/java/com/java/others/Json/exception/RestServiceErrorDescription.java,f\6\f60d559430cb4b7c7378a2613e20c09c429d0323
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+M
+third-party-libraries/pom.xml,7\d\7dd65bddeb9db16fe47ec78f149f0b20d7e3f255
+~
+Nthird-party-libraries/src/main/java/com/java/others/Json/model/MyInstance.java,a\2\a252264f8882f16fd4924e7d8acfa4e447a8b9b0
+y
+Ithird-party-libraries/src/main/java/com/java/others/Json/BaseJackson.java,d\8\d88baf85e73d9935b7be2d3e84a366310fb2a276
