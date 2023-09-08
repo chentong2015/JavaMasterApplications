@@ -1,0 +1,5 @@
+com\aspect\main\model\SecuredClass.class
+com\aspect\main\model\Secured.class
+com\aspect\main\model\SecuredMethodAspect.class
+com\aspect\main\interceptor\EventInterceptor.class
+com\aspect\main\MainAspect.class

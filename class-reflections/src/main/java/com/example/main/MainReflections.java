@@ -14,6 +14,8 @@ import java.util.Set;
 import static org.reflections.scanners.Scanners.SubTypes;
 import static org.reflections.scanners.Scanners.TypesAnnotated;
 
+// 0.9.8 版本不支持以下API
+// org.reflections.scanners.Scanners;
 public class MainReflections {
 
     public static void main(String[] args) {

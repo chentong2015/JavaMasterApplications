@@ -6,19 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="web-networking" />
-        <module name="class-reflections" />
-        <module name="java.baisc.networking" />
         <module name="java.basic.monitoring" />
-        <module name="third-party-libraries" />
+        <module name="networking-web-services" />
         <module name="aspect-runtime" />
         <module name="java.basic.others" />
         <module name="test" />
-        <module name="performance-monitoring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="class-reflections" target="15" />
+      <module name="java.baisc.networking" target="11" />
       <module name="java.web.services" target="15" />
+      <module name="performance-monitoring" target="11" />
+      <module name="third-party-libraries" target="11" />
+      <module name="web-networking" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
