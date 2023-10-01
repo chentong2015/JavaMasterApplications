@@ -1,4 +1,4 @@
-package apache.source;
+package apache;
 
 import org.apache.http.HttpHost;
 import org.apache.http.config.Lookup;
