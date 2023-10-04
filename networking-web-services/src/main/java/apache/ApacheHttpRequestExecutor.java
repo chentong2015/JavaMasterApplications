@@ -11,9 +11,8 @@ public class ApacheHttpRequestExecutor extends HttpRequestExecutor {
 
     // 自定义Apache HttpRequestExecutor 请求的执行器在执行时的配置
     @Override
-    public HttpResponse execute(HttpRequest request,
-                                HttpClientConnection conn,
-                                HttpContext context) throws IOException, HttpException {
+    public HttpResponse execute(HttpRequest request, HttpClientConnection conn, HttpContext context)
+            throws IOException, HttpException {
         String index = getIndexFromHeader(request);
         // 获取到http request target host
         HttpHost httpHost = (HttpHost) context.getAttribute(HttpCoreContext.HTTP_TARGET_HOST);
