@@ -19,30 +19,18 @@ l
 <aspect-runtime/src/main/java/com/aspect/main/MainAspect.java,e\e\ee15c79392444f24034daf044a49e0fb3321d2c3
 �
 Rthird-party-libraries/src/main/java/com/java/others/CommonIO/ApacheCommonsCli.java,1\c\1ca375bff1802224c77ed5edce64c5f0a55d9b8c
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 N
 performance-monitoring/pom.xml,d\f\dfafe996fbfc784ca5a24025bbc43fef6dc775e0
 u
 Eclass-reflections/src/main/java/com/example/main/MainReflections.java,1\0\1036f139bd0e9a9a880491826e40310af0be0ac7
-p
-@networking-web-services/src/main/java/Dropwizard Web后端框架,a\8\a889996ac85c1c59a14e83e7ea13a970c7d0a8db
-i
-9networking-web-services/src/main/java/JAX-WS 服务框架,2\0\20aaeee1dc347b4aaa3c06ea110854d7fbf1dbdf
 w
 Gnetworking-web-services/src/main/java/jax_ws/NotificationsResource.java,1\a\1a4201a6c9a1d2ebcad254805e6d69ce489b62d5
 w
 Gnetworking-web-services/src/main/java/jax_ws/MyClientRequestFilter.java,d\1\d17966451d0dc1015b8e713ac68e15b34a4e1f2a
 x
 Hnetworking-web-services/src/main/java/jax_ws/MyClientRequestContext.java,c\6\c6feaff8b01ac52969b7433159e0a583acf19160
-O
-networking-web-services/pom.xml,c\7\c7aec5c7400d0c92fb0c0541e22f764f4d051077
-m
-=networking-web-services/src/main/java/wildFly 应用服务器,3\4\34af8efec3078747e43fc11d7f75106c274fbaa1
 t
 Dnetworking-web-services/src/main/java/jax_ws/JaxRestServiceDemo.java,e\d\ed1b90ced697037279c0003eb86bd12146004bc0
-I
-class-reflections/pom.xml,4\5\457c3bfb68d1c2fdf7e75cd98410413d9c3e1914
 u
 Eperformance-monitoring/src/main/java/com/jdk/jmh/BenchmarkRunner.java,7\9\79075ee27616cf3a7fe92791024403a88d8b9a2b
 p
@@ -59,3 +47,25 @@ x
 Hthird-party-libraries/src/main/java/com/java/others/Json/Object序列化,1\f\1fe1d825af68940b264eeb08a948e8e74efafe89
 M
 third-party-libraries/pom.xml,7\d\7dd65bddeb9db16fe47ec78f149f0b20d7e3f255
+y
+Ithird-party-libraries/src/main/java/com/java/others/Json/BaseJackson.java,d\8\d88baf85e73d9935b7be2d3e84a366310fb2a276
+y
+Inetworking-web-services/src/main/java/apache/ApacheHttpClientRetryer.java,e\d\ed1b5188adc72257f2d4664b783f004776cbb7b0
+v
+Fnetworking-web-services/src/main/java/apache/HttpClientSourceCode.java,6\0\605851af7b4e62e03af3e4cf3b766fe069073da5
+{
+Knetworking-web-services/src/main/java/apache/ApacheHttpRequestExecutor.java,2\c\2ca54fb9fe8df1f1888cb201cb95cff75d72bda0
+z
+Jnetworking-web-services/src/main/java/feign/client/FeignRequestClient.java,c\5\c5cdbcd12651b4b8495feb521352a11ba757424f
+
+Onetworking-web-services/src/main/java/feign/client/NullResponseFeignClient.java,d\f\df3e02d1bfb8d2687ed6a6babf4091a8572a7ba1
+�
+Wnetworking-web-services/chatbot-application/src/main/java/main/service/JsonHandler.java,3\0\30139af35cadefc702fa3104afbacae7b0df21dd
+�
+Qnetworking-web-services/chatbot-application/src/main/java/main/model/Message.java,8\5\85ae4c89f19a493cd08ce3234bbeb62bd01d5782
+�
+Snetworking-web-services/chatbot-application/src/main/java/main/model/MyRequest.java,2\7\2734e81724483ca6aa39679d3383798f9220a294
+�
+Tnetworking-web-services/chatbot-application/src/main/java/main/model/MyResponse.java,9\9\994d297e54f7d3fbb756b61acbcfddaa0bc1a064
+
+Onetworking-web-services/chatbot-application/src/main/java/main/model/Usage.java,a\e\aed9b65e5ba287edbe991a23161c01aa000b121f

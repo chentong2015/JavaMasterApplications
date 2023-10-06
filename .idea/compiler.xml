@@ -6,14 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="chatbot-application" />
         <module name="java.basic.monitoring" />
-        <module name="networking-web-services" />
         <module name="aspect-runtime" />
         <module name="java.basic.others" />
         <module name="test" />
+        <module name="networking-web-services" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="chatbot-application-test" target="15" />
       <module name="class-reflections" target="15" />
       <module name="java.baisc.networking" target="11" />
       <module name="java.web.services" target="15" />
