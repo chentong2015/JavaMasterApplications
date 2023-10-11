@@ -59,13 +59,29 @@ z
 Jnetworking-web-services/src/main/java/feign/client/FeignRequestClient.java,c\5\c5cdbcd12651b4b8495feb521352a11ba757424f
 
 Onetworking-web-services/src/main/java/feign/client/NullResponseFeignClient.java,d\f\df3e02d1bfb8d2687ed6a6babf4091a8572a7ba1
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+r
+Bnetworking-web-services/src/main/java/apache/Apache HttpClient.txt,4\5\457c3b18052d90b020ab9e11925c5ea591df6f95
+h
+8networking-web-services/src/main/java/apache/logback.xml,5\4\54dee8017f7ce4151cb7a7ec3c6f8fe949223381
+I
+class-reflections/pom.xml,4\5\457c3bfb68d1c2fdf7e75cd98410413d9c3e1914
+v
+Fnetworking-web-services/src/main/java/apache/ApacheHttpClientDemo.java,8\4\84659dd232d4c502f560889887e93f1839de639f
 á
 Wnetworking-web-services/chatbot-application/src/main/java/main/service/JsonHandler.java,3\0\30139af35cadefc702fa3104afbacae7b0df21dd
-Å
-Qnetworking-web-services/chatbot-application/src/main/java/main/model/Message.java,8\5\85ae4c89f19a493cd08ce3234bbeb62bd01d5782
-É
-Snetworking-web-services/chatbot-application/src/main/java/main/model/MyRequest.java,2\7\2734e81724483ca6aa39679d3383798f9220a294
-Ñ
-Tnetworking-web-services/chatbot-application/src/main/java/main/model/MyResponse.java,9\9\994d297e54f7d3fbb756b61acbcfddaa0bc1a064
+ç
+]networking-web-services/chatbot-application/src/main/java/main/service/HttpClientManager.java,a\b\aba688cfb551f0e1bd178d7ebceffff3e849fc80
+à
+Xnetworking-web-services/chatbot-application/src/main/java/main/MyChatBotApplication.java,d\c\dc20a0047758cf9af78c0f703b6b9419a950204f
 
 Onetworking-web-services/chatbot-application/src/main/java/main/model/Usage.java,a\e\aed9b65e5ba287edbe991a23161c01aa000b121f
+Ñ
+Tnetworking-web-services/chatbot-application/src/main/java/main/model/MyResponse.java,9\9\994d297e54f7d3fbb756b61acbcfddaa0bc1a064
+É
+Snetworking-web-services/chatbot-application/src/main/java/main/model/MyRequest.java,2\7\2734e81724483ca6aa39679d3383798f9220a294
+Å
+Qnetworking-web-services/chatbot-application/src/main/java/main/model/Message.java,8\5\85ae4c89f19a493cd08ce3234bbeb62bd01d5782
+O
+networking-web-services/pom.xml,c\7\c7aec5c7400d0c92fb0c0541e22f764f4d051077

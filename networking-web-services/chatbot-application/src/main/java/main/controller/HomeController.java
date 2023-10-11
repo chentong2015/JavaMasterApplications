@@ -14,7 +14,7 @@ public class HomeController {
     }
 
     // 请求URL localhost:8080/chat?question=hello
-    // 允许指定的URL发送跨域认证的请求 => 来自Javascript Ajax发送的请求
+    // 允许指定的URL发送跨域认证的请求(Javascript Ajax)
     @CrossOrigin(origins = "http://localhost:63342")
     @PostMapping("/chat")
     public String chat(@RequestParam String question) {
