@@ -55,10 +55,6 @@ v
 Fnetworking-web-services/src/main/java/apache/HttpClientSourceCode.java,6\0\605851af7b4e62e03af3e4cf3b766fe069073da5
 {
 Knetworking-web-services/src/main/java/apache/ApacheHttpRequestExecutor.java,2\c\2ca54fb9fe8df1f1888cb201cb95cff75d72bda0
-z
-Jnetworking-web-services/src/main/java/feign/client/FeignRequestClient.java,c\5\c5cdbcd12651b4b8495feb521352a11ba757424f
-
-Onetworking-web-services/src/main/java/feign/client/NullResponseFeignClient.java,d\f\df3e02d1bfb8d2687ed6a6babf4091a8572a7ba1
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 r
@@ -85,3 +81,15 @@ Snetworking-web-services/chatbot-application/src/main/java/main/model/MyRequest.
 Qnetworking-web-services/chatbot-application/src/main/java/main/model/Message.java,8\5\85ae4c89f19a493cd08ce3234bbeb62bd01d5782
 O
 networking-web-services/pom.xml,c\7\c7aec5c7400d0c92fb0c0541e22f764f4d051077
+ã
+[networking-web-services/chatbot-application/src/main/java/main/MyChatBotWebApplication.java,e\3\e3b85c32b8ac9a36c6214d8c531ab2ff3a983db2
+c
+3networking-web-services/chatbot-application/pom.xml,6\3\631cf8f92deef2bf538eee8f4c47680737d4c518
+t
+Dnetworking-web-services/chatbot-application/client-side/css/home.css,3\e\3ecef59f2bc5e4b0886ad549ed17539739b9371d
+ç
+]networking-web-services/chatbot-application/src/main/java/main/controller/HomeController.java,3\9\39e9af65ec330086ac74e030e33690957d858ef8
+r
+Bnetworking-web-services/chatbot-application/client-side/js/home.js,1\3\130eb71bbf879e162d13ec21c01a5663aac31d64
+q
+Anetworking-web-services/chatbot-application/client-side/Home.html,1\f\1f48ecbadff0bee35f8b9a23b9af8997a885890c

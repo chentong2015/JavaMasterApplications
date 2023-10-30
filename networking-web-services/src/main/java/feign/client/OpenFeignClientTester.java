@@ -11,19 +11,6 @@ import feign.retryer.MyNativeRetryer;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-// TODO: https://github.com/OpenFeign/feign
-// Feign allows you to write your own code on top of http libraries such as Apache HC
-// 构建在Http上层的类库，封装在Http类库基础上
-
-// 通过将注解处理成模板请求，来指定HTTP Request
-// 1. 可以使用常见的http client来build
-// 2. 可以自定义编码和解码所使用的类库，Java层面只处理对象，不考虑数据的解析
-// 3. 直接通过调用方法来执行Http Client请求，减少对请求的自定义配置和封装
-// 4. 提供日志配置
-// 5. 提供Http Client请求的Timeout
-
-// Use Feign with Spring WebFlux (SSE)
-// https://github.com/playtika/feign-reactive
 public class OpenFeignClientTester {
 
     public static void main(String[] args) {
@@ -60,9 +47,7 @@ public class OpenFeignClientTester {
     // 使用Option来配置Feign请求的timeout参数
     public static void testFeignClientTimeout() {
         Feign.Builder builder = Feign.builder();
-        builder.options(new Request.Options(
-                100, TimeUnit.SECONDS,
-                100, TimeUnit.SECONDS,
+        builder.options(new Request.Options(100, TimeUnit.SECONDS, 100, TimeUnit.SECONDS,
                 true));
     }
 
