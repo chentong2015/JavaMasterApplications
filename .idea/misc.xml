@@ -10,6 +10,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/aspect-runtime/pom.xml" />
         <option value="$PROJECT_DIR$/java.web.services/pom.xml" />
         <option value="$PROJECT_DIR$/web-networking/pom.xml" />
       </set>

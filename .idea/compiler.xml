@@ -8,18 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="chatbot-application" />
         <module name="class-reflections" />
-        <module name="java.basic.monitoring" />
         <module name="networking-web-services" />
-        <module name="aspect-runtime" />
-        <module name="java.basic.others" />
+        <module name="third-party-libraries" />
+        <module name="performance-monitoring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="aspect-runtime" target="15" />
       <module name="chatbot-application-test" target="15" />
       <module name="java.baisc.networking" target="11" />
       <module name="java.web.services" target="15" />
-      <module name="performance-monitoring" target="11" />
-      <module name="third-party-libraries" target="11" />
       <module name="web-networking" target="11" />
     </bytecodeTargetLevel>
   </component>

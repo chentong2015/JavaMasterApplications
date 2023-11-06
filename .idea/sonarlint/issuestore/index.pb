@@ -1,22 +1,8 @@
 
-~
-Naspect-runtime/src/main/java/com/aspect/main/interceptor/EventInterceptor.java,2\9\297a59f0786ca94e4ee2505ed17ab15011a96d9c
 “
 cthird-party-libraries/src/main/java/com/java/others/Json/exception/RestServiceErrorDescription.java,f\6\f60d559430cb4b7c7378a2613e20c09c429d0323
 ~
 Nthird-party-libraries/src/main/java/com/java/others/Json/model/MyInstance.java,a\2\a252264f8882f16fd4924e7d8acfa4e447a8b9b0
-t
-Daspect-runtime/src/main/java/com/aspect/main/model/SecuredClass.java,c\7\c7d63c446a018bb1c5a890489e0b61bb6ab37c5b
-o
-?aspect-runtime/src/main/java/com/aspect/main/model/Secured.java,c\5\c562ca9123382ea08eb195f535e0754bafdc61b3
-h
-8aspect-runtime/src/main/java/com/aspect/main/AOP AspectJ,0\6\06e6cc7475cf57fad5d47af2e81e24a3536d2324
-{
-Kaspect-runtime/src/main/java/com/aspect/main/model/SecuredMethodAspect.java,8\f\8f26c4efda156ad583c62a8a7c681062b1d949be
-F
-aspect-runtime/pom.xml,c\5\c5bb77d25ab7487625087829d9350cb96366e065
-l
-<aspect-runtime/src/main/java/com/aspect/main/MainAspect.java,e\e\ee15c79392444f24034daf044a49e0fb3321d2c3
 ‚
 Rthird-party-libraries/src/main/java/com/java/others/CommonIO/ApacheCommonsCli.java,1\c\1ca375bff1802224c77ed5edce64c5f0a55d9b8c
 N
@@ -55,14 +41,10 @@ v
 Fnetworking-web-services/src/main/java/apache/HttpClientSourceCode.java,6\0\605851af7b4e62e03af3e4cf3b766fe069073da5
 {
 Knetworking-web-services/src/main/java/apache/ApacheHttpRequestExecutor.java,2\c\2ca54fb9fe8df1f1888cb201cb95cff75d72bda0
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 r
 Bnetworking-web-services/src/main/java/apache/Apache HttpClient.txt,4\5\457c3b18052d90b020ab9e11925c5ea591df6f95
 h
 8networking-web-services/src/main/java/apache/logback.xml,5\4\54dee8017f7ce4151cb7a7ec3c6f8fe949223381
-I
-class-reflections/pom.xml,4\5\457c3bfb68d1c2fdf7e75cd98410413d9c3e1914
 v
 Fnetworking-web-services/src/main/java/apache/ApacheHttpClientDemo.java,8\4\84659dd232d4c502f560889887e93f1839de639f
 ‡
@@ -93,3 +75,11 @@ r
 Bnetworking-web-services/chatbot-application/client-side/js/home.js,1\3\130eb71bbf879e162d13ec21c01a5663aac31d64
 q
 Anetworking-web-services/chatbot-application/client-side/Home.html,1\f\1f48ecbadff0bee35f8b9a23b9af8997a885890c
+
+Onetworking-web-services/src/main/java/feign/client/NullResponseFeignClient.java,d\f\df3e02d1bfb8d2687ed6a6babf4091a8572a7ba1
+z
+Jnetworking-web-services/src/main/java/feign/ä¸ºä»€ä¹ˆä½¿ç”¨FeignClient.txt,8\1\81018293917812e55ed6efb9b921a889ec48e073
+}
+Mnetworking-web-services/src/main/java/feign/client/OpenFeignClientTester.java,2\c\2c9d0b6dca60796aa276759e70a7479a63a8b73b
+z
+Jnetworking-web-services/src/main/java/feign/client/FeignRequestClient.java,c\5\c5cdbcd12651b4b8495feb521352a11ba757424f

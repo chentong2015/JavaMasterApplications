@@ -13,7 +13,6 @@
         <module>class-reflections</module>
         <module>performance-monitoring</module>
         <module>third-party-libraries</module>
-        <module>aspect-runtime</module>
         <module>networking-web-services</module>
     </modules>
 
