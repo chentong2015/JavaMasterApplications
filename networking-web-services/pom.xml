@@ -10,6 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>networking-web-services</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>apache-client-server</module>
+        <module>http-feign-client</module>
+        <module>web-server-framework-jax-ws</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
@@ -47,12 +53,6 @@
             <version>3.5.1</version>
         </dependency>
 
-        <!-- Jakarta RESTful Web Services -->
-        <dependency>
-            <groupId>jakarta.ws.rs</groupId>
-            <artifactId>jakarta.ws.rs-api</artifactId>
-            <version>3.0.0</version>
-        </dependency>
     </dependencies>
 
 </project>

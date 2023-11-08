@@ -31,8 +31,6 @@ Zperformance-monitoring/src/main/java/com/io/benchmark/demo/OutputStreamBenchmar
 Mperformance-monitoring/src/main/java/com/io/benchmark/demo/WriterEscaped.java,9\9\99239a46a6bf66eda7846b2268d1691f4ab0515b
 x
 Hthird-party-libraries/src/main/java/com/java/others/Json/Object序列化,1\f\1fe1d825af68940b264eeb08a948e8e74efafe89
-M
-third-party-libraries/pom.xml,7\d\7dd65bddeb9db16fe47ec78f149f0b20d7e3f255
 y
 Ithird-party-libraries/src/main/java/com/java/others/Json/BaseJackson.java,d\8\d88baf85e73d9935b7be2d3e84a366310fb2a276
 y
@@ -61,12 +59,8 @@ Tnetworking-web-services/chatbot-application/src/main/java/main/model/MyResponse
 Snetworking-web-services/chatbot-application/src/main/java/main/model/MyRequest.java,2\7\2734e81724483ca6aa39679d3383798f9220a294
 �
 Qnetworking-web-services/chatbot-application/src/main/java/main/model/Message.java,8\5\85ae4c89f19a493cd08ce3234bbeb62bd01d5782
-O
-networking-web-services/pom.xml,c\7\c7aec5c7400d0c92fb0c0541e22f764f4d051077
 �
 [networking-web-services/chatbot-application/src/main/java/main/MyChatBotWebApplication.java,e\3\e3b85c32b8ac9a36c6214d8c531ab2ff3a983db2
-c
-3networking-web-services/chatbot-application/pom.xml,6\3\631cf8f92deef2bf538eee8f4c47680737d4c518
 t
 Dnetworking-web-services/chatbot-application/client-side/css/home.css,3\e\3ecef59f2bc5e4b0886ad549ed17539739b9371d
 �
@@ -83,3 +77,9 @@ Jnetworking-web-services/src/main/java/feign/为什么使用FeignClient.txt,8\1
 Mnetworking-web-services/src/main/java/feign/client/OpenFeignClientTester.java,2\c\2c9d0b6dca60796aa276759e70a7479a63a8b73b
 z
 Jnetworking-web-services/src/main/java/feign/client/FeignRequestClient.java,c\5\c5cdbcd12651b4b8495feb521352a11ba757424f
+I
+class-reflections/pom.xml,4\5\457c3bfb68d1c2fdf7e75cd98410413d9c3e1914
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+M
+third-party-libraries/pom.xml,7\d\7dd65bddeb9db16fe47ec78f149f0b20d7e3f255

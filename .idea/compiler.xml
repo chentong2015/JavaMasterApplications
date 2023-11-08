@@ -8,8 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="chatbot-application" />
         <module name="class-reflections" />
-        <module name="networking-web-services" />
+        <module name="http-feign-client" />
+        <module name="web-container-tomcat" />
         <module name="third-party-libraries" />
+        <module name="apache-client-server" />
+        <module name="web-server-framework-jax-ws" />
+        <module name="io-netty" />
         <module name="performance-monitoring" />
       </profile>
     </annotationProcessing>
