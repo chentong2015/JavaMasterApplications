@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/networking-web-services/http-web-server/pom.xml" />
         <option value="$PROJECT_DIR$/networking-web-services/io-netty/pom.xml" />
         <option value="$PROJECT_DIR$/networking-web-services/web-container-tomcat/pom.xml" />
+        <option value="$PROJECT_DIR$/chatbot-application/pom.xml" />
+        <option value="$PROJECT_DIR$/networking-web-services/okhttp-client-chatbot/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

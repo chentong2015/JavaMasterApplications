@@ -1,11 +1,0 @@
-
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î´ý¨úÿÿÿÿ8ÆÍÖ§±1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î´ý¨úÿÿÿÿ8ÇÍÖ§±1
-m	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‡©û8ÇÍÖ§±1
-m	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò£çÎ8ÈÍÖ§±1
-x	java:S116"WRename this field "is_truncated" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÌÌ¥üÿÿÿÿ8ÒÍÖ§±1
-y	java:S116"]Rename this field "need_clear_history" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ß¸°8ÒÍÖ§±1
-j	java:S100="NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º×ÞÖ8ßÍÖ§±1
-j	java:S100A"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‡©û8ïÍÖ§±1
-j	java:S100E"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ï¤ñ8ðÍÖ§±1
-j	java:S100I"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò£çÎ8ñÍÖ§±1

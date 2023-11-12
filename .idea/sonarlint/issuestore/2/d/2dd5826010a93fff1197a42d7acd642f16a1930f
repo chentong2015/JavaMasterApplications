@@ -1,0 +1,16 @@
+
+l
+java:S2095&"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(øˆ´üÿÿÿÿÿ
+H
+java:S1135"2Complete the task associated to this TODO comment.(»ÛŞ¦
+U
+java:S1854+":Remove this useless assignment to local variable "result".(û£Ÿ™ùÿÿÿÿ
+T
+java:S1854'">Remove this useless assignment to local variable "statusCode".(€œÛÄ
+E
+java:S1481'"/Remove this unused "statusCode" local variable.(€œÛÄ
+F
+java:S1481+"+Remove this unused "result" local variable.(û£Ÿ™ùÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(ñ—¸½úÿÿÿÿ
+L
+java:S1481A"1Remove this unused "responseBody" local variable.(ÑÓüúÿÿÿÿ
