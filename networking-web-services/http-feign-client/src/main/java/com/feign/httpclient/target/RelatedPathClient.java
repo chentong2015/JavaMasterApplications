@@ -1,4 +1,4 @@
-package com.feign.httpclient.target.client;
+package com.feign.httpclient.target;
 
 import feign.RequestLine;
 

@@ -3,8 +3,8 @@ package com.feign.httpclient.retryer;
 import feign.RetryableException;
 import feign.Retryer;
 
-// TODO. Feign, by default, will automatically retry IOExceptions 默认只会在IO异常上重连
-//  and any RetryableException thrown from an ErrorDecoder        或者在解码器上自定义抛出指定的异常
+// TODO. Feign will automatically retry IOExceptions and any RetryableException thrown from an ErrorDecoder
+//  默认只会在IO异常上重连或者在解码器上自定义抛出指定的异常
 public class MyNativeRetryer implements feign.Retryer {
 
     // Retryers are responsible for determining if a retry should occur

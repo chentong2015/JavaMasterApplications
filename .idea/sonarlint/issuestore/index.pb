@@ -47,8 +47,6 @@ Vnetworking-web-services/apache-client-server/Apache Http Server/Apache Http Ser
 jnetworking-web-services/apache-client-server/src/main/java/com/apache/httpclient/HttpClientSourceCode.java,0\f\0fab5d5df4936fc433d8643e62364a80511035ff
 d
 4networking-web-services/web-container-tomcat/pom.xml,2\f\2f5f10b287483d4cb50d7dfc4cb21ab3062bc818
-§
-tnetworking-web-services/http-feign-client/src/main/java/com/feign/httpclient/interceptor/AuthRequestInterceptor.java,0\b\0b36858b1a23987e5f90d6a4058872f5dffa5499
 a
 1networking-web-services/http-feign-client/pom.xml,9\0\907f06dd99ec907a5725aaf1eee58f3aab010f94
 k
@@ -59,3 +57,11 @@ Tnetworking-web-services/web-server-framework-jax-ws/src/main/java/ÊúçÂä°Ê°ÜÊû∂J
 onetworking-web-services/apache-client-server/src/main/java/com/apache/httpclient/ApacheHttpRequestExecutor.java,b\8\b89a9098991e71aed2f928f0a85cf7cc251899ba
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+ú
+lnetworking-web-services/http-feign-client/src/main/java/com/feign/httpclient/decoder/CustomErrorDecoder.java,4\6\469599279ca74f90bc5ce917291446d447dff8d3
+ù
+mnetworking-web-services/http-feign-client/src/main/java/com/feign/httpclient/decoder/HttpResponseHandler.java,d\f\dfc1a68d44a4eaa9ee470ea2f6ffb2b91350b7b5
+e
+5networking-web-services/okhttp-client-chatbot/pom.xml,6\3\63935df876a0f9aed1e83a3be0e3b5ea819b857c
+O
+networking-web-services/pom.xml,c\7\c7aec5c7400d0c92fb0c0541e22f764f4d051077

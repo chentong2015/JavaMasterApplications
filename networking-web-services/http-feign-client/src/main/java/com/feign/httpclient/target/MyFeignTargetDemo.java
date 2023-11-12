@@ -1,7 +1,5 @@
 package com.feign.httpclient.target;
 
-import com.feign.httpclient.target.client.AbsolutePathClient;
-import com.feign.httpclient.target.client.RelatedPathClient;
 import feign.Feign;
 import feign.Retryer;
 import feign.Target;
