@@ -14,6 +14,7 @@
         <module>performance-monitoring</module>
         <module>third-party-libraries</module>
         <module>networking-web-services</module>
+        <module>third-party-projects</module>
     </modules>
 
     <properties>

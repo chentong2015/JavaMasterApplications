@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/chatbot-application/pom.xml" />
         <option value="$PROJECT_DIR$/networking-web-services/okhttp-client-chatbot/pom.xml" />
         <option value="$PROJECT_DIR$/networking-web-services/netty-io-middleware/pom.xml" />
+        <option value="$PROJECT_DIR$/third-party-projects/tech-exercise-project/pom.xml" />
+        <option value="$PROJECT_DIR$/third-party-projects/okhttp-client-chatbot/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
