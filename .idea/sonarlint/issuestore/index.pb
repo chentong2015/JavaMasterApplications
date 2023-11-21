@@ -85,3 +85,9 @@ hnetworking-web-services/http-feign-client/src/main/java/com/feign/httpclient/bu
 gnetworking-web-services/http-feign-client/src/main/java/com/feign/httpclient/HttpFeignClientTester.java,a\c\ac4db1da0144ece8f8fae258a5e06c99bd7d1dff
 –
 fnetworking-web-services/http-feign-client/src/main/java/com/feign/httpclient/target/MyFeignTarget.java,3\2\32efb762fde1a31bbac4148f30a41b2ec65e2294
+b
+2third-party-projects/okhttp-client-chatbot/pom.xml,3\d\3d6c6d6f8e3fa000018ab7eb85e9a8c943f6f4ee
+b
+2third-party-projects/tech-exercise-project/pom.xml,a\3\a3a3b145458c1b0bd2963d7e6dcadbc5429ae6cd
+L
+third-party-projects/pom.xml,c\f\cfdb57971f18d2fa49253d8ce5a8129a5c5db1e9

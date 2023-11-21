@@ -18,8 +18,6 @@ public class BaseJaxbContext {
 
     // marshal: 将Java Object编组成指定的document xml文件
     // unmarshaller: 将xml file编组成指定的java objects
-    private static JAXBContext context;
-
     public static void main(String[] args) {
         try {
             JAXBContext context = JAXBContext.newInstance(Person.class);
@@ -29,6 +27,11 @@ public class BaseJaxbContext {
             Person person = new Person("chen", "victor");
 
             // 第二个参数是要输出的outputStream
+            // <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+            // <person>
+            //    <firstname>chen</firstname>
+            //    <lastname>victor</lastname>
+            // </person>
             marshaller.marshal(person, System.out);
         } catch (JAXBException ex) {
             ex.printStackTrace();
@@ -39,6 +42,7 @@ public class BaseJaxbContext {
         XMLInputFactory inputFactory = XMLInputFactory.newInstance();
         XMLStreamReader reader = inputFactory.createXMLStreamReader(new ByteArrayInputStream(byteArray));
 
+        JAXBContext context = JAXBContext.newInstance(Person.class);
         Unmarshaller unmarshaller = context.createUnmarshaller();
         unmarshaller.unmarshal(reader);
     }

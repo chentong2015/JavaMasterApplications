@@ -1,4 +1,4 @@
-package com.java.others.XML.w3c.dom;
+package com.java.others.XML;
 
 import com.jcabi.xml.XMLDocument;
 import org.w3c.dom.DOMImplementation;
@@ -53,7 +53,7 @@ public class W3cDocumentDemo {
     // 将生成的dom Node节点转换成xml字符串
     // <?xml version="1.0" encoding="UTF-8" standalone="no"?>
     // <hibernate-mapping auto-import="false" default-access="property" default-cascade="none">
-    //    <class entity-name="com.java.others.XML.w3c.dom.W3cDocumentDemo" name="com.java.others.XML.w3c.dom.W3cDocumentDemo" table="t_table"/>
+    //    <class entity-name="com.java.others.XML.W3cDocumentDemo" name="com.java.others.XML.W3cDocumentDemo" table="t_table"/>
     // </hibernate-mapping>
     private static void printDocumentToXml() {
         String xml = new XMLDocument(document).toString();

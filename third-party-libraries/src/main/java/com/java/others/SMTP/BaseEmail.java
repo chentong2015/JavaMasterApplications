@@ -3,7 +3,8 @@ package com.java.others.SMTP;
 import java.util.Properties;
 
 // SMTP：文件传输协议
-// Javax.mail.jar: The JavaMail reference implementation, including the SMTP, IMAP, and POP3 protocol providers
+// Javax.mail.jar: The JavaMail reference implementation,
+// including the SMTP, IMAP, and POP3 protocol providers
 public class BaseEmail {
 
     private void testSendEmail() {

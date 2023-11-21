@@ -2,20 +2,21 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="class-reflections" />
         <module name="http-feign-client" />
         <module name="netty-io-middleware" />
-        <module name="third-party-projects" />
         <module name="web-container-tomcat" />
+        <module name="okhttp-client-chatbot" />
+        <module name="class-reflections" />
+        <module name="third-party-projects" />
         <module name="third-party-libraries" />
         <module name="apache-client-server" />
         <module name="tech-exercise-project" />
         <module name="web-server-framework-jax-ws" />
-        <module name="okhttp-client-chatbot" />
         <module name="performance-monitoring" />
       </profile>
     </annotationProcessing>

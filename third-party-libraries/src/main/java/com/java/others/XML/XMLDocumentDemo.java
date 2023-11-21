@@ -1,4 +1,4 @@
-package com.java.others.XML.w3c.dom;
+package com.java.others.XML;
 
 import org.w3c.dom.*;
 

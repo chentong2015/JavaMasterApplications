@@ -1,4 +1,4 @@
-package com.java.others.Pojo.Lombok;
+package com.java.others.lombok;
 
 import java.time.LocalDate;
 
