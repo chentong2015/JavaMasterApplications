@@ -26,7 +26,7 @@ public class MowerMachine {
     }
 
     public void moveByOrders(List<Order> orderList) {
-        for (Order order: orderList) {
+        for (Order order : orderList) {
             if (order == Order.A) {
                 moveOneStep();
             } else if (order == Order.D) {
@@ -42,6 +42,7 @@ public class MowerMachine {
         }
     }
 
+    // TODO. 类型成员属性的具体职责的划分，需要重点考虑方法定义在什么类型之中
     private void moveOneStep() {
         Direction direction = currentPosition.getDirection();
         if (direction == Direction.E) {

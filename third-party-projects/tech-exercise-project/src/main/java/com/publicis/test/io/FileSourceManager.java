@@ -23,12 +23,15 @@ public class FileSourceManager {
     private static final String LINE_SPACE = " ";
     private static final Logger LOGGER = LoggerFactory.getLogger(FileSourceManager.class);
 
+    // TODO. 正常而言，构造器中一般执行对象的Init操作，而不调用具体的逻辑功能
     public FileSourceManager(String filepath) throws FileSourceException {
         this.positionList = new ArrayList<>();
         this.orderList = new ArrayList<>();
         loadFile(filepath);
     }
 
+    // 确保在对象创建的时候就应该初始化一些数据
+    // 对于不向外暴露的方法，需要将方法的可见性设置成private
     public void loadFile(String filepath) throws FileSourceException {
         try (BufferedReader reader = new BufferedReader(new FileReader(filepath))) {
             readBorderCoordinate(reader.readLine());
@@ -81,9 +84,9 @@ public class FileSourceManager {
     private List<Order> getOrders(String ordersLine) {
         LOGGER.info("Read orders line string '{}'", ordersLine);
         List<Order> orders = new ArrayList<>();
-        for (char c: ordersLine.toCharArray()) {
+        for (char c : ordersLine.toCharArray()) {
             if (c == 'G') {
-               orders.add(Order.G);
+                orders.add(Order.G);
             } else if (c == 'D') {
                 orders.add(Order.D);
             } else {
@@ -114,6 +117,8 @@ public class FileSourceManager {
         return this.positionList.size();
     }
 
+    // TODO. 对外提供Position和List<Order>时是否需要将其设计成Immutable Class
+    // 防止属性的值在被使用时被篡改，但通常情况下是不需要考虑的
     public Position getPositionByIndex(int index) {
         return this.positionList.get(index);
     }
