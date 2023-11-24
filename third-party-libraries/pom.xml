@@ -56,7 +56,6 @@
             <groupId>jakarta.xml.bind</groupId>
             <artifactId>jakarta.xml.bind-api</artifactId>
             <version>3.0.1</version>
-            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.sun.xml.bind</groupId>
@@ -71,7 +70,5 @@
             <artifactId>jcabi-xml</artifactId>
             <version>0.23.2</version>
         </dependency>
-
-
     </dependencies>
 </project>
