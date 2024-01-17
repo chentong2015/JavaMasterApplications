@@ -1,0 +1,11 @@
+Metrics Health Check
+用于检测系统是否处于健康的状态, 符合production发布的要求
+能够在项目正式运转和发布之前发现问题
+
+https://metrics.dropwizard.io/4.2.0/manual/healthchecks.html
+
+Metrics Health Checks provides the ability to run application-specific health checks,
+allowing you to check your application's heath in production
+
+Metrics (Java library) gives you unparalleled insight into what your code does in production.
+Metrics provides a powerful toolkit to measure the behavior of critical components in production env.

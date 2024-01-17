@@ -10,10 +10,9 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>class-reflections</module>
-        <module>performance-monitoring</module>
-        <module>third-party-libraries</module>
+        <module>java-work-projects</module>
         <module>networking-web-services</module>
+        <module>third-party-libraries</module>
         <module>third-party-projects</module>
     </modules>
 

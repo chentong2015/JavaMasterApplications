@@ -1,9 +1,0 @@
-main\controller\HomeController.class
-main\MyChatBotWebApplication.class
-main\service\HttpClientManager.class
-main\MyChatBotApplication.class
-main\service\JsonHandler.class
-main\model\Usage.class
-main\model\MyRequest.class
-main\model\Message.class
-main\model\MyResponse.class
