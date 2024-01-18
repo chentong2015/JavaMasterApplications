@@ -18,11 +18,11 @@
     <file url="file://$PROJECT_DIR$/java-work-projects/class-reflections/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-work-projects/class-reflections/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-work-projects/metrics-health-check/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/java-work-projects/metrics-health-check/src/main/java/metrics/healthchecks/MetricsHealthChecks.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/java-work-projects/metrics-health-check/src/main/java/metrics/healthchecks/process/CpuMetricCollections.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/java-work-projects/metrics-health-check/src/main/java/metrics/healthchecks/process/FileMetricCollections.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/java-work-projects/metrics-health-check/src/main/java/metrics/healthchecks/process/MemoryMetricCollections.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/java-work-projects/metrics-health-check/src/main/java/metrics/healthchecks/process/ProcessMetricSet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/java-work-projects/metrics-health-check/src/main/java/metrics/healthchecks/MetricsHealthChecks.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-work-projects/metrics-health-check/src/main/java/metrics/healthchecks/process/CpuMetricCollections.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-work-projects/metrics-health-check/src/main/java/metrics/healthchecks/process/FileMetricCollections.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-work-projects/metrics-health-check/src/main/java/metrics/healthchecks/process/MemoryMetricCollections.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-work-projects/metrics-health-check/src/main/java/metrics/healthchecks/process/ProcessMetricSet.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-work-projects/metrics-health-check/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-work-projects/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-work-projects/src/main/resources" charset="UTF-8" />

@@ -10,7 +10,6 @@
         <module name="netty-io-middleware" />
         <module name="http-feign-client" />
         <module name="web-container-tomcat" />
-        <module name="io-netty" />
         <module name="okhttp-client-chatbot" />
         <module name="benchmark-performance" />
         <module name="metrics-health-check" />
@@ -21,7 +20,6 @@
         <module name="tech-exercise-project" />
         <module name="web-server-framework-jax-ws" />
         <module name="performance-monitoring" />
-        <module name="http-web-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
