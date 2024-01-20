@@ -19,6 +19,7 @@
         <module name="third-party-libraries" />
         <module name="tech-exercise-project" />
         <module name="web-server-framework-jax-ws" />
+        <module name="jee-servlet-core" />
         <module name="performance-monitoring" />
       </profile>
     </annotationProcessing>
