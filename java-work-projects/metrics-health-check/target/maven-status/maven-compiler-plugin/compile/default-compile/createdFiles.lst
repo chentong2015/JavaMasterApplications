@@ -1,0 +1,5 @@
+metrics/healthchecks/process/FileMetricCollections.class
+metrics/healthchecks/process/ProcessMetricSet.class
+metrics/healthchecks/process/CpuMetricCollections.class
+metrics/healthchecks/process/MemoryMetricCollections.class
+metrics/healthchecks/process/CpuMetricCollections$1.class

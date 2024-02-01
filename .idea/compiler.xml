@@ -8,18 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="netty-io-middleware" />
-        <module name="http-feign-client" />
         <module name="web-container-tomcat" />
+        <module name="core-jee-servlet" />
         <module name="okhttp-client-chatbot" />
         <module name="benchmark-performance" />
         <module name="metrics-health-check" />
         <module name="class-reflections" />
         <module name="third-party-projects" />
-        <module name="apache-client-server" />
         <module name="third-party-libraries" />
         <module name="tech-exercise-project" />
         <module name="web-server-framework-jax-ws" />
-        <module name="jee-servlet-core" />
+        <module name="apache-httpclient" />
+        <module name="feign-httpclient" />
         <module name="performance-monitoring" />
       </profile>
     </annotationProcessing>
@@ -28,6 +28,7 @@
       <module name="chatbot-application-test" target="15" />
       <module name="java.baisc.networking" target="11" />
       <module name="java.web.services" target="15" />
+      <module name="jee-servlet-core" target="17" />
       <module name="proformance-monitoring" target="11" />
       <module name="web-networking" target="11" />
     </bytecodeTargetLevel>

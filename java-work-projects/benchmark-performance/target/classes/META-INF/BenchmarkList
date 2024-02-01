@@ -1,0 +1,11 @@
+JMH S 36 benchmark.OutputStreamBenchmarksTest S 72 benchmark.jmh_generated.OutputStreamBenchmarksTest_benchEscape_0_jmhTest S 13 benchEscape_0 S 10 Throughput E A 1 1 1 E I 1 2 E E I 1 2 E E I 1 1 I 1 2 E E E E E E E T 4 10 s 
+JMH S 36 benchmark.OutputStreamBenchmarksTest S 72 benchmark.jmh_generated.OutputStreamBenchmarksTest_benchEscape_1_jmhTest S 13 benchEscape_1 S 10 Throughput E A 1 1 1 E I 1 2 E E I 1 2 E E I 1 1 I 1 2 E E E E E E E T 4 10 s 
+JMH S 36 benchmark.OutputStreamBenchmarksTest S 72 benchmark.jmh_generated.OutputStreamBenchmarksTest_benchEscape_2_jmhTest S 13 benchEscape_2 S 10 Throughput E A 1 1 1 E I 1 2 E E I 1 2 E E I 1 1 I 1 2 E E E E E E E T 4 10 s 
+JMH S 36 benchmark.OutputStreamBenchmarksTest S 72 benchmark.jmh_generated.OutputStreamBenchmarksTest_benchEscape_3_jmhTest S 13 benchEscape_3 S 10 Throughput E A 1 1 1 E I 1 2 E E I 1 2 E E I 1 1 I 1 2 E E E E E E E T 4 10 s 
+JMH S 36 benchmark.OutputStreamBenchmarksTest S 75 benchmark.jmh_generated.OutputStreamBenchmarksTest_benchEscape_base_jmhTest S 16 benchEscape_base S 10 Throughput E A 1 1 1 E I 1 2 E E I 1 2 E E I 1 1 I 1 2 E E E E E E E T 4 10 s 
+JMH S 18 jdk.jmh.Benchmarks S 57 jdk.jmh.jmh_generated.Benchmarks_benchMurmur3_128_jmhTest S 16 benchMurmur3_128 S 10 Throughput E A 1 1 1 E E E E E E E I 1 1 I 1 1 E E E E M 1 10 iterations 5 8 xAAMAADA 8 yAAMAADA 8 zAAMAADA 8 1AAMAADA 16 xAAMAADAwAA===== U 12 MILLISECONDS E E 
+JMH S 18 jdk.jmh.Benchmarks S 50 jdk.jmh.jmh_generated.Benchmarks_calculate_jmhTest S 9 calculate S 10 Throughput E A 1 1 1 E E E E E E E I 1 1 I 1 2 E E E E E E E E 
+JMH S 18 jdk.jmh.Benchmarks S 45 jdk.jmh.jmh_generated.Benchmarks_test_jmhTest S 4 test S 10 Throughput E A 1 1 1 E I 1 5 E E E E E E E E E E E E E E E 
+JMH S 18 jdk.jmh.Benchmarks S 45 jdk.jmh.jmh_generated.Benchmarks_init_jmhTest S 4 init S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 29 jdk.jmh.BenchmarksElimination S 61 jdk.jmh.jmh_generated.BenchmarksElimination_doNothing_jmhTest S 9 doNothing S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 11 NANOSECONDS E E 
+JMH S 29 jdk.jmh.BenchmarksElimination S 66 jdk.jmh.jmh_generated.BenchmarksElimination_objectCreation_jmhTest S 14 objectCreation S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 11 NANOSECONDS E E 

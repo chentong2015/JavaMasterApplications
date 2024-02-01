@@ -3,7 +3,7 @@ package benchmark;
 import benchmark.model.NullOutputStream;
 import benchmark.model.NullWriter;
 import benchmark.model.TruncateInfos;
-import org.apache.commons.lang.RandomStringUtils;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.openjdk.jmh.annotations.*;
 
 import java.io.BufferedOutputStream;
