@@ -1,4 +1,4 @@
-package CommonIO;
+package common.io;
 
 import org.apache.commons.cli.*;
 

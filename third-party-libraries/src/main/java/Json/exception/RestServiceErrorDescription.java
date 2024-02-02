@@ -1,4 +1,4 @@
-package Json.exception;
+package json.exception;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnore;

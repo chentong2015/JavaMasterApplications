@@ -1,9 +1,9 @@
-package Json;
+package json;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import Json.model.Person;
+import json.model.Person;
 
 import java.io.ByteArrayInputStream;
 import java.io.FileInputStream;

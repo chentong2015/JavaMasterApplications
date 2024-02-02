@@ -1,4 +1,4 @@
-package SMTP;
+package email;
 
 import java.util.Properties;
 

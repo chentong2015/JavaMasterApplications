@@ -1,11 +1,12 @@
-JCabi XML:
-XML Parsing and Transforming
+Xstream: 比Jaxb更轻量级的XML处理库
+simple library to serialize objects to XML and back again.
+https://x-stream.github.io/tutorial.html
 
-SAX: Simple API for XML
-XML的解析器API, 提供一个机制从XML文件读取资料
+JCabi xml: xml Parsing and Transforming
+https://github.com/jcabi/jcabi-xml
+
+SAX: Simple API for xml 提供一个机制从XML文件读取资料, XML的解析器API
 https://www.jmdoudoux.fr/java/dej/chap-sax.htm
 
-Spring-oxm:
-Spring Object/XML Marshalling
-Support Object/XML mapping impl such as JAXB, Castor, XMLBeans, JiBX and XStream.
-
+Spring-oxm: spring object/xml Marshalling
+Support Object/xml mapping impl such as JAXB, Castor, XMLBeans, JiBX and XStream.

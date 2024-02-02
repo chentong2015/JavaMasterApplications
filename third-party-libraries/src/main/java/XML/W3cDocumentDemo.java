@@ -1,4 +1,4 @@
-package XML;
+package xml;
 
 import com.jcabi.xml.XMLDocument;
 import org.w3c.dom.DOMImplementation;

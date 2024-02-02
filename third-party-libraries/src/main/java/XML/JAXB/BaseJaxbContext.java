@@ -1,6 +1,6 @@
-package XML.JAXB;
+package xml.JAXB;
 
-import XML.JAXB.model.Person;
+import xml.JAXB.model.Person;
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.JAXBException;
 import jakarta.xml.bind.Marshaller;

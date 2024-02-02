@@ -1,4 +1,4 @@
-package CommonIO;
+package common.io;
 
 import feign.Response;
 import org.apache.commons.io.IOUtils;
