@@ -5,8 +5,8 @@
     <file url="file://$PROJECT_DIR$/core-jee-servlet/jee-architect/JEE Eclipse开发.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-jee-servlet/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-jee-servlet/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-work-projects/benchmark-performance/src/main/Benchmark基准测试.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-work-projects/benchmark-performance/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/java-work-projects/benchmark-performance/src/main/java/Benchmark基准测试.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-work-projects/benchmark-performance/src/main/java/benchmark/OutputStreamBenchmarksTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-work-projects/benchmark-performance/src/main/java/benchmark/StringBuilderEscaped.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-work-projects/benchmark-performance/src/main/java/benchmark/StringUtilsEscaped.java" charset="UTF-8" />
@@ -21,6 +21,7 @@
     <file url="file://$PROJECT_DIR$/java-work-projects/benchmark-performance/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-work-projects/class-reflections/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-work-projects/class-reflections/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-work-projects/metrics-health-check/src/main/Metrics健康检测.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-work-projects/metrics-health-check/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-work-projects/metrics-health-check/src/main/java/metrics/healthchecks/MetricsHealthChecks.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-work-projects/metrics-health-check/src/main/java/metrics/healthchecks/process/CpuMetricCollections.java" charset="UTF-8" />
@@ -28,10 +29,16 @@
     <file url="file://$PROJECT_DIR$/java-work-projects/metrics-health-check/src/main/java/metrics/healthchecks/process/MemoryMetricCollections.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-work-projects/metrics-health-check/src/main/java/metrics/healthchecks/process/ProcessMetricSet.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-work-projects/metrics-health-check/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-work-projects/org-aspectj-basic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-work-projects/org-aspectj-basic/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-work-projects/org-aspectj-template/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-work-projects/org-aspectj-template/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-work-projects/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-work-projects/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jee-servlet-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jee-servlet-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/third-party-libraries/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/third-party-libraries/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web-container-tomcat/src/main/linux/tomcat.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web-service-server/http-clients/apache-httpclient/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web-service-server/http-clients/apache-httpclient/src/main/resources" charset="UTF-8" />

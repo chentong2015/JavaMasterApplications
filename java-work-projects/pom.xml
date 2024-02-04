@@ -16,6 +16,8 @@
         <module>class-reflections</module>
         <module>benchmark-performance</module>
         <module>metrics-health-check</module>
+        <module>org-aspectj-basic</module>
+        <module>org-aspectj-template</module>
     </modules>
 
     <properties>
