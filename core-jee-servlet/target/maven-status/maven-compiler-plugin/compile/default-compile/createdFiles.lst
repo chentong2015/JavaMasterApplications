@@ -1,4 +1,0 @@
-service/BaseService.class
-servlet/RequestFilter.class
-servlet/BasicServlet.class
-servlet/HomeServlet.class

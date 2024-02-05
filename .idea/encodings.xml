@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/core-jee-servlet/jee-architect/JEE Architect.txt" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-jee-servlet/jee-architect/JEE Eclipse开发.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-jee-servlet/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-jee-servlet/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-work-projects/benchmark-performance/src/main/Benchmark基准测试.txt" charset="UTF-8" />
@@ -50,6 +48,8 @@
     <file url="file://$PROJECT_DIR$/web-service-server/io-netty/src/main/java/netty/chat/ChatClient.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/web-service-server/io-netty/src/main/java/netty/encode_decode/DemoClass.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/web-service-server/netty-io-middleware/src/main/java/io_network/aio/client/BaseAioClient.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../../Java Spring Master/SpringWebClientServer/spring-web-mvc/jee-servlet-base/jee-core/JEE Architect.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Java Spring Master/SpringWebClientServer/spring-web-mvc/jee-servlet-base/jee-core/JEE Eclipse开发.txt" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

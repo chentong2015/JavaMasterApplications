@@ -10,7 +10,6 @@
         <module name="org-aspectj-basic" />
         <module name="netty-io-middleware" />
         <module name="web-container-tomcat" />
-        <module name="core-jee-servlet" />
         <module name="okhttp-client-chatbot" />
         <module name="benchmark-performance" />
         <module name="metrics-health-check" />
@@ -28,6 +27,7 @@
     <bytecodeTargetLevel>
       <module name="aspect-runtime" target="15" />
       <module name="chatbot-application-test" target="15" />
+      <module name="core-jee-servlet" target="17" />
       <module name="java.baisc.networking" target="11" />
       <module name="java.web.services" target="15" />
       <module name="jee-servlet-core" target="17" />

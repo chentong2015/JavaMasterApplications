@@ -10,7 +10,6 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>core-jee-servlet</module>
         <module>java-work-projects</module>
         <module>web-service-server</module>
         <module>third-party-libraries</module>
