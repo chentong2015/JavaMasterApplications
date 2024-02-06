@@ -4,7 +4,7 @@ import org.apache.commons.cli.*;
 
 // Apache Commons CLI provides a simple API
 // for presenting, processing and validating a Command Line Interface.
-public class ApacheCommonsCli {
+public class ApacheCommonsCLI {
 
     // 输出控制台的帮助文档, 使用Command CLI标准读取格式
     // usage: Command line help:

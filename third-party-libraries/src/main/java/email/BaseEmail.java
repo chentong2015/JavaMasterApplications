@@ -56,7 +56,6 @@ public class BaseEmail {
             transport.close();
         } catch (MessagingException exception) {
             exception.printStackTrace();
-        }
-        */
+        } */
     }
 }
