@@ -11,47 +11,13 @@
 
     <artifactId>web-service-server</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>http-clients</module>
-        <module>web-server-framework-jax-ws</module>
-    </modules>
-
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
     </properties>
 
-    <dependencies>
-        <!-- For apache -->
-        <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpclient</artifactId>
-            <version>4.5.13</version>
-        </dependency>
-
-        <!-- For open feign -->
-        <dependency>
-            <groupId>io.github.openfeign</groupId>
-            <artifactId>feign-jackson</artifactId>
-            <version>11.8</version>
-        </dependency>
-        <dependency>
-            <groupId>io.github.openfeign</groupId>
-            <artifactId>feign-httpclient</artifactId>
-            <version>11.8</version>
-        </dependency>
-        <dependency>
-            <groupId>io.github.openfeign</groupId>
-            <artifactId>feign-slf4j</artifactId>
-            <version>11.8</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.cxf</groupId>
-            <artifactId>cxf-rt-rs-client</artifactId>
-            <version>3.5.1</version>
-        </dependency>
-
-    </dependencies>
-
+    <modules>
+        <module>http-clients</module>
+        <module>jax-ws-service-framework</module>
+    </modules>
 </project>

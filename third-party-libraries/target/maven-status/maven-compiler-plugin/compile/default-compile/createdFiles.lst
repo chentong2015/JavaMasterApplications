@@ -1,6 +1,7 @@
+common/io/ApacheCommonsCLI.class
 common/io/ApacheCommonsIO.class
 csv/JavaCsvTester.class
-common/io/ApacheCommonsCli.class
+common/io/User.class
 lombok/BaseLombokBuilder.class
 json/BaseJacksonMapperTree.class
 json/model/MyInstance.class
@@ -17,7 +18,6 @@ excel/ApachePoiDemo.class
 xml/JAXB/BaseJaxbContext.class
 json/BaseJacksonSerialize.class
 json/model/MyJsonInstance.class
-common/io/ApacheCommonsIO$User.class
 lombok/BaseLombok.class
 json/BaseJacksonMapperTree$1.class
 json/model/Person.class
