@@ -19,13 +19,12 @@
     <dependencies>
         <dependency>
             <groupId>io.github.openfeign</groupId>
-            <artifactId>feign-jackson</artifactId>
+            <artifactId>feign-httpclient</artifactId>
             <version>11.8</version>
         </dependency>
-
         <dependency>
             <groupId>io.github.openfeign</groupId>
-            <artifactId>feign-httpclient</artifactId>
+            <artifactId>feign-jackson</artifactId>
             <version>11.8</version>
         </dependency>
         <dependency>
@@ -38,6 +37,19 @@
             <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-rt-rs-client</artifactId>
             <version>3.5.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>au.com.dius.pact.consumer</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.2.9</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>4.5.1</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

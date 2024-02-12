@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="netty-io-middleware" />
-        <module name="web-container-tomcat" />
         <module name="okhttp-client-chatbot" />
         <module name="benchmark-performance" />
         <module name="metrics-health-check" />
@@ -17,6 +16,7 @@
         <module name="third-party-libraries" />
         <module name="tech-exercise-project" />
         <module name="jax-ws-service-framework" />
+        <module name="tomcat-web-container" />
         <module name="apache-httpclient" />
         <module name="feign-httpclient" />
         <module name="performance-monitoring" />

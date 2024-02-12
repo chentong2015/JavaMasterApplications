@@ -19,5 +19,6 @@
     <modules>
         <module>http-clients</module>
         <module>jax-ws-service-framework</module>
+        <module>tomcat-web-container</module>
     </modules>
 </project>
