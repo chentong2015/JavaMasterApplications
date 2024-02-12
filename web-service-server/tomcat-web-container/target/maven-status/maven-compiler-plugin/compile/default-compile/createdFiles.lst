@@ -1,0 +1,7 @@
+tomcat/classloader/UrlClassLoaderTest.class
+tomcat/hotDeploymentHotLoad/HotDeploymentHotLoad.class
+tomcat/config/TomcatStarter.class
+tomcat/policy/TomcatPolicy.class
+tomcat/TomcatBasic.class
+tomcat/TomcatSourceCode.class
+tomcat/jndi/TomcatJNDI.class
