@@ -15,7 +15,6 @@
         <module name="third-party-projects" />
         <module name="third-party-libraries" />
         <module name="tech-exercise-project" />
-        <module name="jax-ws-service-framework" />
         <module name="tomcat-web-container" />
         <module name="apache-httpclient" />
         <module name="feign-httpclient" />
@@ -28,6 +27,7 @@
       <module name="core-jee-servlet" target="17" />
       <module name="java.baisc.networking" target="11" />
       <module name="java.web.services" target="15" />
+      <module name="jax-ws-service-framework" target="15" />
       <module name="jee-servlet-core" target="17" />
       <module name="org-aspectj-basic" target="15" />
       <module name="org-aspectj-template" target="15" />

@@ -1,3 +1,0 @@
-Dropwizard - 对标Spring框架
-Java framework for developing ops-friendly, high-performance, RESTful web services
-https://www.dropwizard.io/en/latest/getting-started.html
