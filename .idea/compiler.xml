@@ -7,17 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="netty-io-middleware" />
-        <module name="okhttp-client-chatbot" />
-        <module name="benchmark-performance" />
-        <module name="metrics-health-check" />
         <module name="class-reflections" />
         <module name="third-party-projects" />
+        <module name="netty-io-middleware" />
         <module name="third-party-libraries" />
-        <module name="tech-exercise-project" />
         <module name="tomcat-web-container" />
         <module name="apache-httpclient" />
         <module name="feign-httpclient" />
+        <module name="tech-exercise" />
+        <module name="benchmark-performance" />
+        <module name="okhttp-client-chatbot" />
+        <module name="metrics-health-check" />
         <module name="performance-monitoring" />
       </profile>
     </annotationProcessing>

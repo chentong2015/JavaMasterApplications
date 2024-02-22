@@ -3,6 +3,22 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/core-jee-servlet/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-jee-servlet/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/io-networking/http-clients/apache-httpclient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/io-networking/http-clients/apache-httpclient/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/io-networking/http-clients/feign-httpclient/FeignClient使用场景.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/io-networking/http-clients/feign-httpclient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/io-networking/http-clients/feign-httpclient/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/io-networking/http-clients/feign-httpclient/src/test/java/testing/MyCustomRetryerTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/io-networking/http-clients/feign-httpclient/src/test/java/testing/MyServiceClientTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/io-networking/http-clients/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/io-networking/http-clients/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/io-networking/io-netty" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/io-networking/io-netty/src/main/java/netty/chat/ChatClient.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/io-networking/io-netty/src/main/java/netty/encode_decode/DemoClass.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/io-networking/netty-io-middleware/src/main/java/io_network/aio/client/BaseAioClient.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/io-networking/tomcat-web-container/src/main/linux/tomcat.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-exercise-projects/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-exercise-projects/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-work-projects/benchmark-performance/src/main/Benchmark基准测试.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-work-projects/benchmark-performance/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-work-projects/benchmark-performance/src/main/java/benchmark/OutputStreamBenchmarksTest.java" charset="UTF-8" />
@@ -37,20 +53,6 @@
     <file url="file://$PROJECT_DIR$/jee-servlet-core/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/third-party-libraries/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/third-party-libraries/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/web-service-server/http-clients/apache-httpclient/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/web-service-server/http-clients/apache-httpclient/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/web-service-server/http-clients/feign-httpclient/FeignClient使用场景.txt" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/web-service-server/http-clients/feign-httpclient/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/web-service-server/http-clients/feign-httpclient/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/web-service-server/http-clients/feign-httpclient/src/test/java/testing/MyCustomRetryerTest.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/web-service-server/http-clients/feign-httpclient/src/test/java/testing/MyServiceClientTest.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/web-service-server/http-clients/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/web-service-server/http-clients/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/web-service-server/io-netty" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/web-service-server/io-netty/src/main/java/netty/chat/ChatClient.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/web-service-server/io-netty/src/main/java/netty/encode_decode/DemoClass.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/web-service-server/netty-io-middleware/src/main/java/io_network/aio/client/BaseAioClient.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/web-service-server/tomcat-web-container/src/main/linux/tomcat.txt" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

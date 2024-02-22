@@ -1,0 +1,16 @@
+Eclipse Jetty IO 开源Http通讯项目
+- Jetty provides a web server and servlet container,
+- Jetty provides support for HTTP/2, WebSocket, OSGi, JMX, JNDI, JAAS and other integrations.
+
+TODO. Jetty 包含客户端和服务端，可自定义HTTP请求
+<dependency>
+  <groupId>org.eclipse.jetty</groupId>
+  <artifactId>jetty-server</artifactId>
+</dependency>
+
+<dependency>
+  <groupId>org.eclipse.jetty</groupId>
+  <artifactId>jetty-client</artifactId>
+</dependency>
+
+https://eclipse.dev/jetty/documentation/jetty-12/programming-guide/index.html
