@@ -15,6 +15,7 @@
     <modules>
         <module>apache-httpclient</module>
         <module>feign-httpclient</module>
+        <module>apache-httpclient5</module>
     </modules>
 
     <properties>

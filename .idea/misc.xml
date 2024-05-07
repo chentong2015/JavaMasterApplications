@@ -20,6 +20,8 @@
         <option value="$PROJECT_DIR$/io-networking/netty-io-middleware/pom.xml" />
         <option value="$PROJECT_DIR$/io-networking/http-clients/okhttp-client-chatbot/pom.xml" />
         <option value="$PROJECT_DIR$/java-exercise-projects/tech-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/java-exercise-projects/mower-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/work-other-projects/mower-exercise/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -28,12 +30,12 @@
         <option value="$PROJECT_DIR$/core-jee-servlet/pom.xml" />
         <option value="$PROJECT_DIR$/java-work-projects/org-aspectj-basic/pom.xml" />
         <option value="$PROJECT_DIR$/java-work-projects/org-aspectj-template/pom.xml" />
+        <option value="$PROJECT_DIR$/java-work-projects/pom.xml" />
         <option value="$PROJECT_DIR$/java.web.services/pom.xml" />
         <option value="$PROJECT_DIR$/performance-monitoring/pom.xml" />
         <option value="$PROJECT_DIR$/web-networking/pom.xml" />
       </set>
     </option>
-    <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

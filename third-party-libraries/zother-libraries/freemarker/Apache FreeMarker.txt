@@ -1,0 +1,5 @@
+Apache FreeMarker 模板引擎，能够生成Java源代码
+Template engine: a Java library to generate text output based on templates and changing data.
+(HTML web pages, e-mails, configuration files, source code, etc.)
+
+https://freemarker.apache.org/

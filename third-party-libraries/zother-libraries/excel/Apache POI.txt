@@ -1,0 +1,18 @@
+https://poi.apache.org/components/spreadsheet/quick-guide.html
+
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+</dependency>
+
+poi-VERSION.jar                ==> basic 2003 excel format
+poi-ooxml-VERSION.jar          ==> For 2007 excel format
+poi-ooxml-schemas-VERSION.jar
+xmlbeans-VERSION.jar
+commons-collections.jar        ==> ListValuedMap
+commons-compress.jar           ==> Zip/ZipFile
+commons-math.jar               ==> for POIFSFileSystem

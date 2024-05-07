@@ -10,10 +10,10 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
+        <module>core-apis</module>
         <module>io-networking</module>
-        <module>java-exercise-projects</module>
-        <module>java-work-projects</module>
         <module>third-party-libraries</module>
+        <module>work-other-projects</module>
     </modules>
 
     <properties>

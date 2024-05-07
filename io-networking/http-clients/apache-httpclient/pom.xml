@@ -17,10 +17,19 @@
     </properties>
 
     <dependencies>
+        <!-- 提供RestTemplate, WebServiceTemplate
+        使用自定义的ClientHttpRequestFactory生成请求的HttpClient -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.3.27</version>
+        </dependency>
+
+        <!-- 自定义Http请求的client -->
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
-            <version>4.5.13</version>
+            <version>4.5.9</version>
         </dependency>
     </dependencies>
 </project>

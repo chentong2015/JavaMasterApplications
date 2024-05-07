@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Records>
+    <Person id="1" action="todo" date="08-Oct-2022">
+        <Gender>Male</Gender>
+        <ActiveStatus>Active</ActiveStatus>
+        <NameDetails>
+            <Name NameType="Name">
+                <NameValue>
+                    <FirstName>test</FirstName>
+                    <Surname>last</Surname>
+                </NameValue>
+            </Name>
+        </NameDetails>
+    </Person>
+</Records>

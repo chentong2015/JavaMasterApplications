@@ -1,0 +1,2 @@
+Json 转换对象的注解: 自定义解析的映射关系
+https://www.baeldung.com/jackson-annotations#3-jsonpropertyorder

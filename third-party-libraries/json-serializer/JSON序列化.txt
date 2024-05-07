@@ -1,0 +1,7 @@
+www.json.org/json-zh.html
+
+Object到Json转换和序列化
+1. Jackson => Spring Boot自带Jackson类库
+2. GSON
+3. JSON.simple
+4. Fastjson
