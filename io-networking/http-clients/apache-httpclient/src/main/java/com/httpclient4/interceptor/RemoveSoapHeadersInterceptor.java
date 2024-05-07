@@ -1,4 +1,4 @@
-package project;
+package com.httpclient4.interceptor;
 
 import org.apache.http.HttpEntityEnclosingRequest;
 import org.apache.http.HttpRequest;

@@ -1,4 +1,4 @@
-package demo;
+package com.httpclient4;
 
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -36,9 +36,9 @@ public class ApacheHttpClientDemo {
         request.addHeader("User-Agent", "Chrome");
 
         CloseableHttpResponse response = HttpClients.createDefault().execute(request);
-        int statusCode = response.getStatusLine().getStatusCode();
+        response.getStatusLine().getStatusCode();
 
-        // .getContent() 拿到所有的返回结果，其中包含 json result
+        // .getContent() 拿到所有返回的JSON数据
         InputStream inputStream = response.getEntity().getContent();
         String result = String.valueOf(inputStream);
 

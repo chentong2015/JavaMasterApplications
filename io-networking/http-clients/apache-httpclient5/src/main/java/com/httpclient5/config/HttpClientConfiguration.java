@@ -1,8 +1,8 @@
-package project;
+package com.httpclient5.config;
 
+import com.httpclient5.interceptor.RemoveSoapHeadersInterceptor;
 import org.apache.hc.client5.http.classic.HttpClient;
 import org.apache.hc.client5.http.config.ConnectionConfig;
-import org.apache.hc.client5.http.config.RequestConfig;
 import org.apache.hc.client5.http.impl.classic.HttpClientBuilder;
 import org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager;
 import org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManagerBuilder;
@@ -22,31 +22,22 @@ import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
 
 import javax.net.ssl.SSLContext;
 
-// TODO. Spring-web v5 -> v6 无法设置setReadTimeout()
-//  HttpClient v4 -> v5 无法再设置.setSSLSocketFactory(), 通过ConnectionManager来配置
-// https://hc.apache.org/httpcomponents-client-5.3.x/migration-guide/migration-to-classic.html
 public abstract class HttpClientConfiguration {
 
-    RequestConfig requestConfig;
-
     protected final ClientHttpRequestFactory createRequestFactory() throws Exception {
-        HttpComponentsClientHttpRequestFactory requestFactory =
-                new HttpComponentsClientHttpRequestFactory(this.httpClient());
-
-        // 这里的ReadTimeout实际被设置成RequestConfig的SocketTimeout
-        // requestFactory.setReadTimeout(100);
+        HttpComponentsClientHttpRequestFactory requestFactory = new HttpComponentsClientHttpRequestFactory(this.httpClient());
         requestFactory.setConnectTimeout(100);
         return requestFactory;
     }
 
     protected final HttpClient httpClient() throws Exception {
         HttpClientBuilder builder = HttpClientBuilder.create()
-                .setConnectionManager(getConnectionManager());
-
-        this.configureHttpClient(builder);
+                .setConnectionManager(getConnectionManager())
+                .addRequestInterceptorFirst(new RemoveSoapHeadersInterceptor());;
         return builder.build();
     }
 
+    // TODO. 通过Connection Manager来配置Http请求的设置
     private PoolingHttpClientConnectionManager getConnectionManager() {
         return PoolingHttpClientConnectionManagerBuilder.create()
                 .setSSLSocketFactory(SSLConnectionSocketFactoryBuilder.create()
@@ -64,11 +55,6 @@ public abstract class HttpClientConfiguration {
                         .setTimeToLive(TimeValue.ofMinutes(10))
                         .build())
                 .build();
-    }
-
-    // 交给继承类进行额外的HttpClient的配置
-    protected void configureHttpClient(HttpClientBuilder builder) {
-        builder.addRequestInterceptorFirst(new RemoveSoapHeadersInterceptor());
     }
 
     protected SSLConnectionSocketFactory connectionSocketFactory() throws Exception {

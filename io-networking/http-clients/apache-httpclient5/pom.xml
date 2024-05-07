@@ -17,7 +17,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <!-- TODO. 由于Spring Web使用httpclient5的API, 因此使用对应的兼容版本 -->
+    <!-- TODO. 由于Spring Web使用httpclient5的API, 需要使用兼容版本 -->
     <dependencies>
         <!-- 通过Spring-boot-starter-web引入的依赖 -->
         <dependency>
@@ -32,5 +32,4 @@
             <version>5.2.3</version>
         </dependency>
     </dependencies>
-
 </project>

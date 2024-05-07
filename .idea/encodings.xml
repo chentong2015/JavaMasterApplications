@@ -14,8 +14,11 @@
     <file url="file://$PROJECT_DIR$/core-apis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-jee-servlet/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-jee-servlet/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/io-networking/http-clients/apache-httpclient/Apache HttpClient.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/io-networking/http-clients/apache-httpclient/Apache HttpClient.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/io-networking/http-clients/apache-httpclient/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/io-networking/http-clients/apache-httpclient/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/io-networking/http-clients/apache-httpclient5/Apache HttpClient5 迁移.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/io-networking/http-clients/apache-httpclient5/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/io-networking/http-clients/apache-httpclient5/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/io-networking/http-clients/feign-httpclient/FeignClient使用场景.txt" charset="UTF-8" />
@@ -90,6 +93,8 @@
     <file url="file://$PROJECT_DIR$/work-other-projects/metrics-health-check/src/main/java/metrics/healthchecks/process/MemoryMetricCollections.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/work-other-projects/metrics-health-check/src/main/java/metrics/healthchecks/process/ProcessMetricSet.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/work-other-projects/metrics-health-check/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/work-other-projects/mower-exercise/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/work-other-projects/mower-exercise/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/work-other-projects/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/work-other-projects/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="windows-1252" />

@@ -1,4 +1,4 @@
-package source.code;
+package com.httpclient4;
 
 import org.apache.http.HttpHost;
 import org.apache.http.config.Lookup;
@@ -10,13 +10,12 @@ import org.apache.http.protocol.HttpContext;
 import java.io.IOException;
 import java.net.*;
 
+// TODO. HttpClient底层源码，基于Socket建立起HTTP连接
 public class HttpClientSourceCode {
 
-    // DNS域名解析器
     private DnsResolver dnsResolver;
     private SchemePortResolver schemePortResolver;
 
-    // TODO. Apache Http Client建立起connection的源码
     public void connect(ManagedHttpClientConnection conn, HttpHost host, InetSocketAddress localAddress,
                         int connectTimeout, SocketConfig socketConfig, HttpContext context) throws IOException {
         Lookup<ConnectionSocketFactory> registry = this.getSocketFactoryRegistry(context);

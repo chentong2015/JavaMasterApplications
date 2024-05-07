@@ -1,4 +1,4 @@
-package demo;
+package com.httpclient4;
 
 import org.apache.http.*;
 import org.apache.http.protocol.HttpContext;
