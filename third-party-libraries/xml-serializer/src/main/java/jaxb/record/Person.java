@@ -24,6 +24,7 @@ public class Person {
     @XmlAttribute(name = "date", required = true)
     protected String date;
 
+    // XmlElement元素的顺序没有影响
     @XmlElement(name = "Gender")
     protected String gender;
 

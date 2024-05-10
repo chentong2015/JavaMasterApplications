@@ -5,7 +5,6 @@ import jakarta.xml.bind.JAXBException;
 import jakarta.xml.bind.Marshaller;
 import jakarta.xml.bind.Unmarshaller;
 import jaxb.demo.XmlPerson;
-import jaxb.record.Person;
 import jaxb.record.Records;
 
 import javax.xml.stream.XMLInputFactory;
@@ -38,9 +37,9 @@ public class JaxbContextDemo {
         marshaller.marshal(person, System.out);
     }
 
-    // unmarshaller: 将xml file编组成指定的Object
-    // TODO. 必须创建对应的Object类型才能转换对应的XML文件
-    public static void readXml(InputStream inputStream, Class<?> clazz) throws XMLStreamException, JAXBException {
+    // unmarshaller: 将xml file编组成指定Object, 对象类型必须匹配XML
+    public static void readXml(InputStream inputStream, Class<?> clazz)
+            throws XMLStreamException, JAXBException {
         XMLInputFactory inputFactory = XMLInputFactory.newInstance();
         XMLStreamReader reader = inputFactory.createXMLStreamReader(inputStream);
 
