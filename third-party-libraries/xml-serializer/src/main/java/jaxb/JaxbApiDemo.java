@@ -12,14 +12,13 @@ import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 import java.io.InputStream;
 
-// JAXB: Java XML Binding
-// 提供XML文件到Object转换，使用在Hibernate项目中
-public class JaxbContextDemo {
+// JAXB: Java XML Binding 提供XML文件到Object转换，使用在Hibernate项目中
+public class JaxbApiDemo {
 
     public static void main(String[] args) throws JAXBException, XMLStreamException {
         writeXml();
 
-        ClassLoader loader = JaxbContextDemo.class.getClassLoader();
+        ClassLoader loader = JaxbApiDemo.class.getClassLoader();
         InputStream inputStream = loader.getResourceAsStream("demo.xml");
         readXml(inputStream, XmlPerson.class);
 

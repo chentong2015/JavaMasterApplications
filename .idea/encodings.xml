@@ -15,7 +15,6 @@
     <file url="file://$PROJECT_DIR$/core-jee-servlet/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-jee-servlet/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/io-networking/http-clients/apache-httpclient/Apache HttpClient.txt" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/io-networking/http-clients/apache-httpclient/Apache HttpClient.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/io-networking/http-clients/apache-httpclient/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/io-networking/http-clients/apache-httpclient/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/io-networking/http-clients/apache-httpclient5/Apache HttpClient5 迁移.txt" charset="UTF-8" />
@@ -64,13 +63,17 @@
     <file url="file://$PROJECT_DIR$/third-party-libraries/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/third-party-libraries/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/third-party-libraries/xml-serializer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/third-party-libraries/xml-serializer/src/main/java/xml转换器.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/third-party-libraries/xml-serializer/src/main/java/xml转换器.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/third-party-libraries/xml-serializer/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/third-party-libraries/xml-serializer/src/main/xml转换器.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/third-party-libraries/zother-libraries/email/BaseEmail.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/third-party-libraries/zother-libraries/excel" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/third-party-libraries/zother-libraries/excel/ApachePoiDemo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/third-party-libraries/zother-libraries/freemarker" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/third-party-libraries/zother-libraries/pdf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/third-party-others/excel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/third-party-others/excel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/third-party-others/excel/ApachePoiDemo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/third-party-others/freemarker" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/third-party-others/freemarker" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/third-party-others/pdf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/third-party-others/pdf" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/work-other-projects/benchmark-performance/src/main/Benchmark基准测试.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/work-other-projects/benchmark-performance/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/work-other-projects/benchmark-performance/src/main/java/benchmark/OutputStreamBenchmarksTest.java" charset="UTF-8" />
