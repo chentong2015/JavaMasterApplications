@@ -18,7 +18,6 @@
         <module>csv-library</module>
         <module>apache-commons</module>
         <module>lombook-library</module>
-        <module>class-reflections</module>
         <module>command-line</module>
     </modules>
 </project>

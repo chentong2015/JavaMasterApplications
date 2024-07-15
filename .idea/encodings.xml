@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/core-apis/base jpa" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-apis/core-annotation-validation/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-apis/core-annotation-validation/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-apis/jakarta-persistence-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-apis/jakarta-persistence-api/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-apis/jakarta-persistence-api/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-apis/javax-persistence-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-apis/javax-persistence-api/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-apis/javax-persistence-api/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-apis/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-apis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Database Master/DatabaseMaster/jpa-design/base jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Database Master/DatabaseMaster/jpa-design/core-annotation-validation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Database Master/DatabaseMaster/jpa-design/core-annotation-validation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Database Master/DatabaseMaster/jpa-design/jakarta-persistence-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Database Master/DatabaseMaster/jpa-design/jakarta-persistence-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Database Master/DatabaseMaster/jpa-design/jakarta-persistence-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Database Master/DatabaseMaster/jpa-design/java-persistence-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Database Master/DatabaseMaster/jpa-design/java-persistence-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Database Master/DatabaseMaster/jpa-design/java-persistence-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Database Master/DatabaseMaster/jpa-design/java-reflections-entity-parser/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Database Master/DatabaseMaster/jpa-design/java-reflections-entity-parser/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Database Master/DatabaseMaster/jpa-design/java-reflections/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Database Master/DatabaseMaster/jpa-design/java-reflections/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Database Master/DatabaseMaster/jpa-design/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Database Master/DatabaseMaster/jpa-design/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-jee-servlet/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-jee-servlet/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/io-networking/http-clients/apache-httpclient/Apache HttpClient.txt" charset="UTF-8" />
@@ -47,8 +51,6 @@
     <file url="file://$PROJECT_DIR$/third-party-libraries/apache-commons/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/third-party-libraries/apache-commons/src/main/java/IO流处理.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/third-party-libraries/apache-commons/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/third-party-libraries/class-reflections/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/third-party-libraries/class-reflections/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/third-party-libraries/command-line/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/third-party-libraries/command-line/src/main/java/common_cli" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/third-party-libraries/command-line/src/main/java/common_cli/ApacheCommonsCLI.java" charset="UTF-8" />

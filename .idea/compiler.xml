@@ -14,12 +14,8 @@
         <module name="xml-serializer" />
         <module name="okhttp-client-chatbot" />
         <module name="benchmark-performance" />
-        <module name="jakarta-persistence-api" />
         <module name="metrics-health-check" />
-        <module name="class-reflections" />
-        <module name="core-annotation-validation" />
         <module name="third-party-projects" />
-        <module name="javax-persistence-api" />
         <module name="json-serializer" />
         <module name="tomcat-web-container" />
         <module name="apache-httpclient" />
@@ -34,7 +30,13 @@
     <bytecodeTargetLevel>
       <module name="aspect-runtime" target="15" />
       <module name="chatbot-application-test" target="15" />
+      <module name="core-annotation-validation" target="17" />
+      <module name="core-apis" target="17" />
       <module name="core-jee-servlet" target="17" />
+      <module name="jakarta-persistence-api" target="17" />
+      <module name="java-persistence-api" target="17" />
+      <module name="java-reflections" target="15" />
+      <module name="java-reflections-entity-parser" target="15" />
       <module name="java-work-projects" target="17" />
       <module name="java.baisc.networking" target="11" />
       <module name="java.web.services" target="15" />
